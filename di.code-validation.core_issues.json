@@ -1,0 +1,4865 @@
+{
+	"version": "1.0.0",
+	"results": {
+		"@sap/di.code-validation.js": {
+			"issues": {
+				"webapp/Component-preload.js": [{
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 77,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?b8b7dca7caf342f590c21a5ef91e2f2b.html",
+					"line": 15,
+					"message": "Hardcoded colors are not allowed as they will break theming effort.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "sap-no-hardcoded-color",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 10,
+					"message": "Line 10 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 11,
+					"message": "Line 11 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 12,
+					"message": "Line 12 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 13,
+					"message": "Line 13 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 14,
+					"message": "Line 14 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 15,
+					"message": "Line 15 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 16,
+					"message": "Line 16 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 17,
+					"message": "Line 17 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 18,
+					"message": "Line 18 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 19,
+					"message": "Line 19 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 20,
+					"message": "Line 20 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 21,
+					"message": "Line 21 exceeds the maximum line length of 200.",
+					"path": "webapp/Component-preload.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}],
+				"webapp/controller/OrderView.controller.js": [{
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 31,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 21,
+					"message": "'zzuru' is not defined.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 53,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 55,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 57,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 59,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 52,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 59,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 61,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 56,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 61,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 63,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 46,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 63,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 65,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 56,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 65,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 68,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 50,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 68,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 72,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 50,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 72,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/no-eval",
+					"line": 294,
+					"message": "eval can be harmful.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-eval",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 34,
+					"helpUrl": "http://eslint.org/docs/rules/comma-dangle",
+					"line": 6,
+					"message": "Unexpected trailing comma.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "comma-dangle",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 75,
+					"helpUrl": "http://eslint.org/docs/rules/new-cap",
+					"line": 21,
+					"message": "A constructor name should not start with a lowercase letter.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "new-cap",
+					"severity": "info"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c6dc4a756ae34861984b4ec56ada0974.html",
+					"line": 45,
+					"message": "Timeout with value > 0",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "sap-timeout-usage",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c6dc4a756ae34861984b4ec56ada0974.html",
+					"line": 51,
+					"message": "Timeout with value > 0",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "sap-timeout-usage",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?edeb59094b544c98b130ee0802c08969.html",
+					"line": 52,
+					"message": "Proprietary Browser API access, use jQuery selector instead",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "sap-no-proprietary-browser-api",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?e9601b0b056c41b8a67a448075767941.html",
+					"line": 147,
+					"message": "Direct DOM insertion is forbidden!",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "sap-no-dom-insertion",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 36,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 147,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 153,
+					"message": "'that' is assigned a value but never used.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 154,
+					"message": "'oModel' is assigned a value but never used.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 166,
+					"message": "'orderSectionTable' is assigned a value but never used.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 29,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 291,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 294,
+					"message": "Assignment to function parameter 'oDate'.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 296,
+					"message": "Assignment to function parameter 'oDate'.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/comma-dangle",
+					"line": 308,
+					"message": "Unexpected trailing comma.",
+					"path": "webapp/controller/OrderView.controller.js",
+					"ruleId": "comma-dangle",
+					"severity": "warning"
+				}],
+				"webapp/controller/TableView.controller.js": [{
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 31,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 64,
+					"message": "'zzuru' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 77,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 31,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 257,
+					"message": "'zzuru' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 293,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 295,
+					"message": "'oController' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 32,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 710,
+					"message": "'_' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 720,
+					"message": "'_' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 733,
+					"message": "'_' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 752,
+					"message": "'_' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 778,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 25,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 800,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 811,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 823,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 832,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 844,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 854,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 943,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 1011,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 1110,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 1195,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 76,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 1195,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 1256,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 1418,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 48,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 1418,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 46,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 1536,
+					"message": "Missing semicolon.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 1548,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 1554,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 1556,
+					"message": "'oController' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 1703,
+					"message": "Unexpected console statement.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 22,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 1717,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 15,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 1731,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 15,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 1746,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 20,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 1766,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?cab220f7da6d44b0ae3638580ba39b5d.html",
+					"line": 1790,
+					"message": "Property sId is a private member of sap.ui.base.Event!",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-ui5base-prop",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/no-eval",
+					"line": 1800,
+					"message": "eval can be harmful.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-eval",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 15,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 1802,
+					"message": "'_' is not defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 75,
+					"helpUrl": "http://eslint.org/docs/rules/new-cap",
+					"line": 64,
+					"message": "A constructor name should not start with a lowercase letter.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "new-cap",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-this",
+					"line": 93,
+					"message": "Unexpected alias 'scope' for 'this'.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "consistent-this",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-this",
+					"line": 96,
+					"message": "Unexpected alias 'scope' for 'this'.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "consistent-this",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 96,
+					"message": "'scope' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 19,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 128,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-this",
+					"line": 256,
+					"message": "Unexpected alias 'scope' for 'this'.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "consistent-this",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 75,
+					"helpUrl": "http://eslint.org/docs/rules/new-cap",
+					"line": 257,
+					"message": "A constructor name should not start with a lowercase letter.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "new-cap",
+					"severity": "info"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c6dc4a756ae34861984b4ec56ada0974.html",
+					"line": 259,
+					"message": "Timeout with value > 0",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-timeout-usage",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c6dc4a756ae34861984b4ec56ada0974.html",
+					"line": 263,
+					"message": "Timeout with value > 0",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-timeout-usage",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 264,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-this",
+					"line": 271,
+					"message": "Unexpected alias 'scope' for 'this'.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "consistent-this",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 304,
+					"message": "'count' is assigned a value but never used.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 311,
+					"message": "'count' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c6dc4a756ae34861984b4ec56ada0974.html",
+					"line": 359,
+					"message": "Timeout with value > 0",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-timeout-usage",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?edeb59094b544c98b130ee0802c08969.html",
+					"line": 360,
+					"message": "Proprietary Browser API access, use jQuery selector instead",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "sap-no-proprietary-browser-api",
+					"severity": "warning"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 388,
+					"message": "'router' is assigned a value but never used.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 406,
+					"message": "Line 406 exceeds the maximum line length of 200.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 439,
+					"message": "'hierarchyTreeTbl' is assigned a value but never used.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 47,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 449,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 453,
+					"message": "'path' is defined but never used.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "http://eslint.org/docs/rules/max-statements",
+					"line": 469,
+					"message": "Method 'onCheckHierarchy' has too many statements (127). Maximum allowed is 40.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-statements",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "http://eslint.org/docs/rules/complexity",
+					"line": 469,
+					"message": "Method 'onCheckHierarchy' has a complexity of 82.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "complexity",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 476,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 41,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 478,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 84,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 478,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 481,
+					"message": "Blocks are nested too deeply (5).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 9,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 483,
+					"message": "Blocks are nested too deeply (6).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 48,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 488,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 93,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 488,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 489,
+					"message": "'j' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 491,
+					"message": "Blocks are nested too deeply (5).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 17,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 491,
+					"message": "'k' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 9,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 493,
+					"message": "Blocks are nested too deeply (6).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 18,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 493,
+					"message": "'l' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 503,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 505,
+					"message": "'i' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 38,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 506,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 507,
+					"message": "'j' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 51,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 508,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 9,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 510,
+					"message": "Blocks are nested too deeply (5).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 18,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 510,
+					"message": "'k' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 10,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 512,
+					"message": "Blocks are nested too deeply (6).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 19,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 512,
+					"message": "'l' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 58,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 517,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 9,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 519,
+					"message": "Blocks are nested too deeply (5).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 18,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 519,
+					"message": "'k' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 10,
+					"helpUrl": "http://eslint.org/docs/rules/max-depth",
+					"line": 521,
+					"message": "Blocks are nested too deeply (6).",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "max-depth",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 19,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 521,
+					"message": "'l' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 533,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 40,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 534,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 35,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 537,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 40,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 538,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 40,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 542,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 552,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 555,
+					"message": "'i' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 38,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 556,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 557,
+					"message": "'j' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 48,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 558,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 18,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 559,
+					"message": "'k' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 61,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 560,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 20,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 562,
+					"message": "'l' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 68,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 567,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 20,
+					"helpUrl": "http://eslint.org/docs/rules/no-redeclare",
+					"line": 570,
+					"message": "'l' is already defined.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "no-redeclare",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 51,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 576,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/controller/TableView.controller.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}],
+				"webapp/extend/ObjectListItem.js": [{
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 40,
+					"message": "'zsmyths' is not defined.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 48,
+					"message": "'zsmyths' is not defined.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 56,
+					"message": "'zsmyths' is not defined.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 17,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 68,
+					"message": "'zsmyths' is not defined.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 85,
+					"message": "'zsmyths' is not defined.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 90,
+					"message": "Unexpected console statement.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 9,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 61,
+					"message": "'that' is assigned a value but never used.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 89,
+					"message": "'src' is assigned a value but never used.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/space-infix-ops",
+					"line": 89,
+					"message": "Infix operators must be spaced.",
+					"path": "webapp/extend/ObjectListItem.js",
+					"ruleId": "space-infix-ops",
+					"severity": "info"
+				}],
+				"webapp/extend/OrderListItem.js": [{
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 61,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 42,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 81,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 42,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 68,
+					"message": "Assignment to function parameter 'key'.",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?e9601b0b056c41b8a67a448075767941.html",
+					"line": 74,
+					"message": "Direct DOM insertion is forbidden!",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "sap-no-dom-insertion",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?e9601b0b056c41b8a67a448075767941.html",
+					"line": 75,
+					"message": "Direct DOM insertion is forbidden!",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "sap-no-dom-insertion",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?e9601b0b056c41b8a67a448075767941.html",
+					"line": 76,
+					"message": "Direct DOM insertion is forbidden!",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "sap-no-dom-insertion",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?e9601b0b056c41b8a67a448075767941.html",
+					"line": 79,
+					"message": "Direct DOM insertion is forbidden!",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "sap-no-dom-insertion",
+					"severity": "warning"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?e9601b0b056c41b8a67a448075767941.html",
+					"line": 82,
+					"message": "Direct DOM insertion is forbidden!",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "sap-no-dom-insertion",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 64,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 85,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 84,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 85,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/extend/OrderListItem.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}],
+				"webapp/libs/LoadingIcon.js": [{
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 115,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 118,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 152,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/camelcase",
+					"line": 3,
+					"message": "Identifier 'loader_ext' is not in camel case.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "camelcase",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 8,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 12,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 12,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 14,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 20,
+					"message": "Assignment to function parameter 'tmpl'.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 25,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 20,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 36,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 20,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 22,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 27,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-return",
+					"line": 37,
+					"message": "Method 'init' expected no return value.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "consistent-return",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 22,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 43,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 47,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 43,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 71,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 43,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 22,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 46,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 48,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 46,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 26,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 47,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/camelcase",
+					"line": 50,
+					"message": "Identifier 'check_position' is not in camel case.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "camelcase",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/camelcase",
+					"line": 59,
+					"message": "Identifier 'check_unique' is not in camel case.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "camelcase",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 36,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 66,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 57,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 66,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 12,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 68,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Fiori Architectural Guidelines",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?e9601b0b056c41b8a67a448075767941.html",
+					"line": 74,
+					"message": "Direct DOM insertion is forbidden!",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "sap-no-dom-insertion",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 74,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/camelcase",
+					"line": 76,
+					"message": "Identifier 'set_css' is not in camel case.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "camelcase",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 84,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 17,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 85,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 17,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 88,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 29,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 88,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 92,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 93,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 94,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 95,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 32,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 95,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 99,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 100,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 77,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 100,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/camelcase",
+					"line": 103,
+					"message": "Identifier 'set_define' is not in camel case.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "camelcase",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 17,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 107,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 31,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 107,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 110,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 111,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 112,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 112,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 57,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 112,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 34,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 115,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 46,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 115,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-this",
+					"line": 116,
+					"message": "Unexpected alias 'self' for 'this'.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "consistent-this",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/camelcase",
+					"line": 121,
+					"message": "Identifier 'for_ie6' is not in camel case.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "camelcase",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 57,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 123,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 60,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 123,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 125,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 18,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 125,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 126,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 27,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 137,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 50,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 137,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 56,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 137,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 138,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 50,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 138,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 43,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 144,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 145,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 22,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 147,
+					"message": "Expected '!==' and instead saw '!='.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 17,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 152,
+					"message": "Expected '!==' and instead saw '!='.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/max-len",
+					"line": 156,
+					"message": "Line 156 exceeds the maximum line length of 200.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "max-len",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 158,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 169,
+					"message": "Assignment to function parameter 'arg'.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-return",
+					"line": 177,
+					"message": "Function expected no return value.",
+					"path": "webapp/libs/LoadingIcon.js",
+					"ruleId": "consistent-return",
+					"severity": "warning"
+				}],
+				"webapp/libs/formatter.js": [{
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 2,
+					"message": "'formatter' is not defined.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/no-eval",
+					"line": 43,
+					"message": "eval can be harmful.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "no-eval",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-return",
+					"line": 10,
+					"message": "Expected to return a value at the end of method 'showSalesPersonvalue'.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "consistent-return",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 19,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-return",
+					"line": 28,
+					"message": "Expected to return a value at the end of method 'showStatusImage'.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "consistent-return",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 40,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 43,
+					"message": "Assignment to function parameter 'oDate'.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 45,
+					"message": "Assignment to function parameter 'oDate'.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/comma-dangle",
+					"line": 60,
+					"message": "Unexpected trailing comma.",
+					"path": "webapp/libs/formatter.js",
+					"ruleId": "comma-dangle",
+					"severity": "warning"
+				}],
+				"webapp/libs/html2Canvas.js": [{
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 1,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 7,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 2,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 8,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 32,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 9,
+					"message": "'exports' is not defined.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 79,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 9,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 69,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 21,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 24,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 28,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 31,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 33,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 35,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 53,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 37,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 27,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 38,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 10,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 47,
+					"message": "'Symbol' is not defined.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 26,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 53,
+					"message": "'Symbol' is not defined.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 55,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 55,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 9,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 58,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 37,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 58,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 23,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 60,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 15,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 63,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 81,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 65,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 66,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 72,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 132,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 72,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 52,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 76,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 77,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 124,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 82,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 133,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 87,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 67,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 92,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 93,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 97,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 103,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 100,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 19,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 104,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 108,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 86,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 109,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 117,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 52,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 117,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 26,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 122,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 41,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 128,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 130,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 38,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 284,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 287,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 294,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 132,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 294,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 52,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 298,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 299,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 302,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 309,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 86,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 310,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 35,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 313,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 40,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 318,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 71,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 323,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 22,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 328,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 330,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 57,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 343,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 22,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 346,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 348,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 351,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 359,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 132,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 359,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 52,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 363,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 364,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 372,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 376,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 86,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 377,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 78,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 378,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 61,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 383,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 385,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 61,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 388,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 39,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 391,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 63,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 398,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 29,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 405,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 84,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 416,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 34,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 422,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 84,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 425,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 84,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 427,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 438,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 440,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 459,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 118,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 481,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 483,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 493,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 132,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 493,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 52,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 497,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 498,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 533,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 86,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 534,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 573,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 80,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 574,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 577,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 578,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 136,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 578,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 107,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 580,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 124,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 586,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 90,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 591,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 16,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 597,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 102,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 602,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 55,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 607,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 47,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 612,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 34,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 617,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 43,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 622,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/html2Canvas.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}],
+				"webapp/libs/oDataOperations.js": [{
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 124,
+					"message": "Unexpected console statement.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 126,
+					"message": "Unexpected console statement.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-console",
+					"line": 131,
+					"message": "Unexpected console statement.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-console",
+					"severity": "error"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 2,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 3,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 20,
+					"helpUrl": "http://eslint.org/docs/rules/comma-dangle",
+					"line": 4,
+					"message": "Unexpected trailing comma.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "comma-dangle",
+					"severity": "warning"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 7,
+					"message": "'stopReading' is assigned a value but never used.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 8,
+					"message": "'flagforPagination' is assigned a value but never used.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 18,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-return",
+					"line": 17,
+					"message": "Expected to return a value at the end of method 'readOperation'.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "consistent-return",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 18,
+					"helpUrl": "http://eslint.org/docs/rules/max-params",
+					"line": 17,
+					"message": "Method 'readOperation' has too many parameters (14). Maximum allowed is 8.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "max-params",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 27,
+					"message": "Assignment to function parameter 'asyncInd'.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 33,
+					"message": "'entity' is assigned a value but never used.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/max-statements",
+					"line": 56,
+					"message": "Function has too many statements (46). Maximum allowed is 40.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "max-statements",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 62,
+					"message": "Assignment to function parameter 'skip'.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 70,
+					"message": "Assignment to function parameter 'controlId'.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 19,
+					"helpUrl": "http://eslint.org/docs/rules/eqeqeq",
+					"line": 108,
+					"message": "Expected '===' and instead saw '=='.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "eqeqeq",
+					"severity": "warning"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 151,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 152,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 153,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Stylistic Issue",
+					"checker": "ESLint",
+					"column": 14,
+					"helpUrl": "http://eslint.org/docs/rules/quotes",
+					"line": 172,
+					"message": "Strings must use doublequote.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "quotes",
+					"severity": "info"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 10,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-vars",
+					"line": 281,
+					"message": "'countries' is assigned a value but never used.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-unused-vars",
+					"severity": "warning"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-param-reassign",
+					"line": 301,
+					"message": "Assignment to function parameter 'skip'.",
+					"path": "webapp/libs/oDataOperations.js",
+					"ruleId": "no-param-reassign",
+					"severity": "info"
+				}],
+				"webapp/libs/underscore.js": [{
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 25,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 11,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 12,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 13,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 85,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 20,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 21,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 29,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 30,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 30,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 37,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 42,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 43,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 61,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 51,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 128,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 51,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 86,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 68,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 2,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 70,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 86,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 70,
+					"message": "'exports' is not defined.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 117,
+					"helpUrl": "http://eslint.org/docs/rules/no-undef",
+					"line": 70,
+					"message": "'exports' is not defined.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-undef",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 25,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 77,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 81,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 31,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 85,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 34,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 89,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 6,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 90,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 33,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 93,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 94,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 111,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 97,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 100,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 7,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 109,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 44,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 109,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 111,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 112,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 32,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 119,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 37,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 123,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 124,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 51,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 130,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 2,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 132,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 61,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 139,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 141,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 24,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 146,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 148,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 104,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 151,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 155,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 27,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 155,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 8,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 156,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 40,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 158,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 33,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 163,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 12,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 165,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 32,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 170,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 12,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 172,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 100,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 174,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 40,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 180,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 181,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 33,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 183,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 35,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 185,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 33,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 187,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 46,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 193,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 72,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 193,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 10,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 194,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 195,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 77,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 195,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 197,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 46,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 203,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 72,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 203,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 10,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 204,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 205,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 75,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 205,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 207,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 90,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 209,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 211,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 121,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 213,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 220,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 41,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 226,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 228,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 15,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 229,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 15,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 236,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 9,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 237,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 238,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 2,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 240,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 241,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 42,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 241,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 243,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 245,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 34,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 245,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 87,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 247,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 60,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 249,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 32,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 255,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 13,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 256,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 81,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 258,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 72,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 260,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 102,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 262,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 43,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 264,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 33,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 266,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 272,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 48,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 275,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 276,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 28,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 276,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 11,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 278,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 2,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 280,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 21,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 281,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 47,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 283,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 3,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 285,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 4,
+					"helpUrl": "http://eslint.org/docs/rules/no-unused-expressions",
+					"line": 289,
+					"message": "Expected an assignment or function call and instead saw an expression.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "no-unused-expressions",
+					"severity": "error"
+				}, {
+					"category": "Possible Error",
+					"checker": "ESLint",
+					"column": 123,
+					"helpUrl": "http://eslint.org/docs/rules/semi",
+					"line": 289,
+					"message": "Missing semicolon.",
+					"path": "webapp/libs/underscore.js",
+					"ruleId": "semi",
+					"severity": "error"
+				}],
+				"webapp/model/models.js": [{
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 5,
+					"helpUrl": "http://eslint.org/docs/rules/no-alert",
+					"line": 60,
+					"message": "Unexpected alert.",
+					"path": "webapp/model/models.js",
+					"ruleId": "no-alert",
+					"severity": "error"
+				}, {
+					"category": "Best Practices",
+					"checker": "ESLint",
+					"column": 32,
+					"helpUrl": "http://eslint.org/docs/rules/consistent-return",
+					"line": 36,
+					"message": "Expected to return a value at the end of method 'createServiceExceptionModel'.",
+					"path": "webapp/model/models.js",
+					"ruleId": "consistent-return",
+					"severity": "warning"
+				}]
+			}
+		},
+		"@sap/di.code-validation.xml": {
+			"issues": {
+				"webapp/fragments/FilterDlg.fragment.xml": [{
+					"id": "XML_COMMONS_USAGE",
+					"category": "Fiori Architectural Guidelines Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?6d6a927533594c95b2a5c30c588ed678.html",
+					"line": 17,
+					"column": 12,
+					"message": "Usage of sap.ui.commons controls is forbidden, please use controls from sap.m / sap.me or sap.ca.",
+					"path": "webapp/fragments/FilterDlg.fragment.xml",
+					"severity": "error",
+					"source": ""
+				}, {
+					"id": "XML_COMMONS_USAGE",
+					"category": "Fiori Architectural Guidelines Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?6d6a927533594c95b2a5c30c588ed678.html",
+					"line": 66,
+					"column": 12,
+					"message": "Usage of sap.ui.commons controls is forbidden, please use controls from sap.m / sap.me or sap.ca.",
+					"path": "webapp/fragments/FilterDlg.fragment.xml",
+					"severity": "error",
+					"source": ""
+				}, {
+					"category": "Semantic Error",
+					"checker": "SAPUI5",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c2b013a1cf8148d2991e59bf707b3ffe.html",
+					"line": 17,
+					"column": 12,
+					"message": "The control <sap.ui.commons.TriStateCheckBox> is deprecated since version sap.m.HBox.\n\t1.38",
+					"source": "",
+					"path": "webapp/fragments/FilterDlg.fragment.xml",
+					"severity": "warning",
+					"id": "XML_DEPRECATED_CONTROL",
+					"tagName": "tristatecheckbox"
+				}, {
+					"category": "Semantic Error",
+					"checker": "SAPUI5",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c2b013a1cf8148d2991e59bf707b3ffe.html",
+					"line": 66,
+					"column": 12,
+					"message": "The control <sap.ui.commons.TriStateCheckBox> is deprecated since version sap.m.HBox.\n\t1.38",
+					"source": "",
+					"path": "webapp/fragments/FilterDlg.fragment.xml",
+					"severity": "warning",
+					"id": "XML_DEPRECATED_CONTROL",
+					"tagName": "tristatecheckbox"
+				}],
+				"webapp/fragments/OrdersSection.fragment.xml": [{
+					"id": "XML_ICON_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?6820e49dbce947b3af89e1ad7ff9b41e.html",
+					"line": 107,
+					"column": 8,
+					"message": "An icon must define one of the following attributes: tooltip, ariaLabelledBy, ariaDescribedBy, alt",
+					"path": "webapp/fragments/OrdersSection.fragment.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 91,
+					"column": 8,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/fragments/OrdersSection.fragment.xml",
+					"severity": "info",
+					"source": ""
+				}],
+				"webapp/fragments/TableSection.fragment.xml": [{
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 5,
+					"column": 4,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/fragments/TableSection.fragment.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 10,
+					"column": 6,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/fragments/TableSection.fragment.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 18,
+					"column": 6,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/fragments/TableSection.fragment.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 26,
+					"column": 6,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/fragments/TableSection.fragment.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 60,
+					"column": 7,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/fragments/TableSection.fragment.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"category": "Semantic Error",
+					"checker": "SAPUI5",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c2b013a1cf8148d2991e59bf707b3ffe.html",
+					"line": 38,
+					"column": 48,
+					"message": "The event select for <sap.m.SegmentedButton> is deprecated since version 1.52.\n\treplaced by selectionChange event",
+					"source": "",
+					"path": "webapp/fragments/TableSection.fragment.xml",
+					"severity": "warning",
+					"id": "XML_DEPRECATED_EVENT",
+					"tagName": "segmentedbutton"
+				}],
+				"webapp/view/OrderView.view.xml": [{
+					"id": "XML_ICON_BUTTON_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?bce23e7ade9545489f53bacc4c643551.html",
+					"line": 43,
+					"column": 8,
+					"message": "An icon-only button must define the following attribute: tooltip",
+					"path": "webapp/view/OrderView.view.xml",
+					"severity": "info",
+					"source": ""
+				}],
+				"webapp/view/TableView.view.xml": [{
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 11,
+					"column": 8,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/view/TableView.view.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 16,
+					"column": 10,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/view/TableView.view.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 24,
+					"column": 10,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/view/TableView.view.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 32,
+					"column": 10,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/view/TableView.view.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"id": "XML_IMAGE_ACCESSIBILITY",
+					"category": "Accessibility Error",
+					"checker": "Fiori XML Analysis",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?1905c1b21a554f808421be80e6b858d7.html",
+					"line": 66,
+					"column": 11,
+					"message": "An image must define one of the following attributes: tooltip, ariaLabeledBy, ariaDescribedBy, alt",
+					"path": "webapp/view/TableView.view.xml",
+					"severity": "info",
+					"source": ""
+				}, {
+					"category": "Semantic Error",
+					"checker": "SAPUI5",
+					"helpUrl": "https://help.hana.ondemand.com/webide/frameset.htm?c2b013a1cf8148d2991e59bf707b3ffe.html",
+					"line": 44,
+					"column": 52,
+					"message": "The event select for <sap.m.SegmentedButton> is deprecated since version 1.52.\n\treplaced by selectionChange event",
+					"source": "",
+					"path": "webapp/view/TableView.view.xml",
+					"severity": "warning",
+					"id": "XML_DEPRECATED_EVENT",
+					"tagName": "segmentedbutton"
+				}]
+			}
+		},
+		"@sap/di.code-validation.json": {
+			"issues": {}
+		}
+	}
+}

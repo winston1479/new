@@ -1,0 +1,347 @@
+{
+    "resources": [
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-preload-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "controller/App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/OrderView-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/OrderView.controller.js"
+        },
+        {
+            "name": "controller/TableView-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/TableView.controller.js"
+        },
+        {
+            "name": "css/style-dbg.css",
+            "isDebug": true
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "extend/ObjectListItem-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "extend/ObjectListItem.js"
+        },
+        {
+            "name": "extend/OrderListItem-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "extend/OrderListItem.js"
+        },
+        {
+            "name": "extend/SourceSansPro-Regular.ttf"
+        },
+        {
+            "name": "fragments/AdvancedSearch.fragment.xml"
+        },
+        {
+            "name": "fragments/Busydialog.fragment.xml"
+        },
+        {
+            "name": "fragments/FilterDlg.fragment.xml"
+        },
+        {
+            "name": "fragments/OrdersSection.fragment.xml"
+        },
+        {
+            "name": "fragments/TableSection.fragment.xml"
+        },
+        {
+            "name": "fragments/hintSection.fragment.xml"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "images/Firstshippingdate.svg"
+        },
+        {
+            "name": "images/background.png"
+        },
+        {
+            "name": "images/cancelledorders.svg"
+        },
+        {
+            "name": "images/delvTruck.png"
+        },
+        {
+            "name": "images/loader.svg"
+        },
+        {
+            "name": "images/logo.png"
+        },
+        {
+            "name": "images/newlink.svg"
+        },
+        {
+            "name": "images/preloader.gif"
+        },
+        {
+            "name": "images/productionMOQ.svg"
+        },
+        {
+            "name": "images/shippinginfo.svg"
+        },
+        {
+            "name": "images/truck_delivered.svg"
+        },
+        {
+            "name": "images/truck_process.svg"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "libs/LoadingIcon-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "libs/LoadingIcon.js"
+        },
+        {
+            "name": "libs/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "libs/formatter.js"
+        },
+        {
+            "name": "libs/html2Canvas-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "libs/html2Canvas.js"
+        },
+        {
+            "name": "libs/oDataOperations-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "libs/oDataOperations.js"
+        },
+        {
+            "name": "libs/underscore-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "libs/underscore.js"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "tmp/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "tmp/Component.js"
+        },
+        {
+            "name": "tmp/controller/App.controller.js"
+        },
+        {
+            "name": "tmp/controller/OrderView.controller.js"
+        },
+        {
+            "name": "tmp/controller/TableView.controller.js"
+        },
+        {
+            "name": "tmp/css/style.css"
+        },
+        {
+            "name": "tmp/extend/ObjectListItem.js"
+        },
+        {
+            "name": "tmp/extend/OrderListItem.js"
+        },
+        {
+            "name": "tmp/extend/SourceSansPro-Regular.ttf"
+        },
+        {
+            "name": "tmp/fragments/AdvancedSearch.fragment.xml"
+        },
+        {
+            "name": "tmp/fragments/Busydialog.fragment.xml"
+        },
+        {
+            "name": "tmp/fragments/FilterDlg.fragment.xml"
+        },
+        {
+            "name": "tmp/fragments/OrdersSection.fragment.xml"
+        },
+        {
+            "name": "tmp/fragments/TableSection.fragment.xml"
+        },
+        {
+            "name": "tmp/fragments/hintSection.fragment.xml"
+        },
+        {
+            "name": "tmp/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "tmp/images/Firstshippingdate.svg"
+        },
+        {
+            "name": "tmp/images/background.png"
+        },
+        {
+            "name": "tmp/images/cancelledorders.svg"
+        },
+        {
+            "name": "tmp/images/delvTruck.png"
+        },
+        {
+            "name": "tmp/images/loader.svg"
+        },
+        {
+            "name": "tmp/images/logo.png"
+        },
+        {
+            "name": "tmp/images/newlink.svg"
+        },
+        {
+            "name": "tmp/images/preloader.gif"
+        },
+        {
+            "name": "tmp/images/productionMOQ.svg"
+        },
+        {
+            "name": "tmp/images/shippinginfo.svg"
+        },
+        {
+            "name": "tmp/images/truck_delivered.svg"
+        },
+        {
+            "name": "tmp/images/truck_process.svg"
+        },
+        {
+            "name": "tmp/index.html"
+        },
+        {
+            "name": "tmp/libs/LoadingIcon.js"
+        },
+        {
+            "name": "tmp/libs/formatter.js"
+        },
+        {
+            "name": "tmp/libs/html2Canvas.js"
+        },
+        {
+            "name": "tmp/libs/oDataOperations.js"
+        },
+        {
+            "name": "tmp/libs/underscore.js"
+        },
+        {
+            "name": "tmp/manifest.json"
+        },
+        {
+            "name": "tmp/model/models.js"
+        },
+        {
+            "name": "tmp/view/App.view.xml"
+        },
+        {
+            "name": "tmp/view/OrderView.view.xml"
+        },
+        {
+            "name": "tmp/view/TableView.view.xml"
+        },
+        {
+            "name": "tmp-dbg/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "tmp-dbg/Component.js"
+        },
+        {
+            "name": "tmp-dbg/controller/App.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/OrderView.controller.js"
+        },
+        {
+            "name": "tmp-dbg/controller/TableView.controller.js"
+        },
+        {
+            "name": "tmp-dbg/css/style.css"
+        },
+        {
+            "name": "tmp-dbg/extend/ObjectListItem.js"
+        },
+        {
+            "name": "tmp-dbg/extend/OrderListItem.js"
+        },
+        {
+            "name": "tmp-dbg/libs/LoadingIcon.js"
+        },
+        {
+            "name": "tmp-dbg/libs/formatter.js"
+        },
+        {
+            "name": "tmp-dbg/libs/html2Canvas.js"
+        },
+        {
+            "name": "tmp-dbg/libs/oDataOperations.js"
+        },
+        {
+            "name": "tmp-dbg/libs/underscore.js"
+        },
+        {
+            "name": "tmp-dbg/model/models.js"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/OrderView.view.xml"
+        },
+        {
+            "name": "view/TableView.view.xml"
+        }
+    ]
+}

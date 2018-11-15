@@ -1,0 +1,128 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:t="sap.ui.table"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" xmlns:com="sap.ui.commons">
+	<ViewSettingsDialog title="Filter By" id="filterDlg" confirm="handleConfirm" filterDetailPageOpened="onFilterItemsClicked"
+		cancel="handleCancel" resetFilters="handleResetFilters" class="filterDlgCls">
+		<filterItems>
+			<ViewSettingsCustomItem id="idBrandFilterItem" text="Brand/ Category/ Sub-Category/ SKU" key="Brand" class="itemCls">
+				<customControl>
+					<l:VerticalLayout width="100%">
+						<SearchField id="BrandSearch" search="onBrandCatogorySearch" width="100%"/>
+						<t:TreeTable id="hierarchyTable" enableSelectAll="false" ariaLabelledBy="title" selectionMode="None">
+							<!--rows="{path:'/sEntity'}"-->
+							<t:columns>
+								<t:Column width="100%">
+									<Label text=""/>
+									<t:template>
+										<HBox>
+											<com:TriStateCheckBox change="onCheckHierarchy" class="SapUiTinyMarginBegin" app:Type="{type}" app:brand="{Brand}" app:catogory="{catogory}"
+												app:SubCatogory="{Subcatogory}" app:value="{value}" selectionState="{selected}"/>
+											<Text text="{description}" wrapping="false" class="treeTextCls"/>
+										</HBox>
+										<!--{parts:[{path:'description'},{path:'type'}],formatter:'formatter.setColorValue'}-->
+									</t:template>
+								</t:Column>
+							</t:columns>
+						</t:TreeTable>
+					</l:VerticalLayout>
+				</customControl>
+			</ViewSettingsCustomItem>
+			<ViewSettingsCustomItem id="idCustomerFilterItem" text="Customer" key="Customer">
+				<customControl>
+					<l:VerticalLayout width="100%">
+						<SearchField id="customerSearch" search="onFilterListSearch" width="100%" app:List="CustomerList"/>
+						<List id="idCustomerList" items="{/CustomerSet}" selectionChange="onSelectionChange" mode="MultiSelect" includeItemInSelection="true">
+							<items>
+								<StandardListItem title="{parts:[{path:'Name1'},{path:'Kunnr'}],formatter:'formatter.formatCustomerValue'}" app:title="{Name1}"
+									app:key="{Kunnr}" app:list="Customer"/>
+							</items>
+						</List>
+					</l:VerticalLayout>
+				</customControl>
+			</ViewSettingsCustomItem>
+			<ViewSettingsCustomItem id="idSalesPersonFilterItem" text="Sales Person" key="SalesPerson">
+				<customControl>
+					<l:VerticalLayout width="100%">
+						<SearchField id="SalesPersonSearch" search="onFilterListSearch" width="100%" app:List="SalesPersonList"/>
+						<List id="idSalesPersonList" items="{/SalesPersonSet}" selectionChange="onSelectionChange" mode="MultiSelect" includeItemInSelection="true">
+							<items>
+								<StandardListItem title="{parts:[{path:'Bezei'},{path:'Vkgrp'}],formatter:'formatter.showSalesPersonvalue'}"
+									visible="{parts:[{path:'Bezei'},{path:'Vkgrp'}],formatter:'formatter.showOrHideItem'}" app:title="{Bezei}" app:key="{Vkgrp}"
+									app:list="SalesPerson"/>
+							</items>
+						</List>
+					</l:VerticalLayout>
+				</customControl>
+			</ViewSettingsCustomItem>
+			<ViewSettingsCustomItem id="idRegionFilterItem" text="Region/Country" key="Region">
+				<customControl>
+					<l:VerticalLayout width="100%">
+						<SearchField id="RegionSearch" search="onRegionTreeSerarch" width="100%"/>
+						<t:TreeTable id="regionTreeTable" enableSelectAll="false" ariaLabelledBy="title" selectionMode="None">
+							<t:columns>
+								<t:Column width="100%">
+									<Label text=""/>
+									<t:template>
+										<HBox>
+											<com:TriStateCheckBox change="onCheckRegion" selectionState="{selected}" class="SapUiTinyMarginBegin" app:continent="{Continent}"
+												app:Type="{type}" app:value="{value}"/>
+											<Text text="{description}" wrapping="false" class="treeTextCls"/>
+										</HBox>
+									</t:template>
+								</t:Column>
+							</t:columns>
+						</t:TreeTable>
+					</l:VerticalLayout>
+				</customControl>
+			</ViewSettingsCustomItem>
+			<ViewSettingsCustomItem id="idOrderTypeFilterItem" text="Order Type" key="OrderType">
+				<customControl>
+					<l:VerticalLayout width="100%">
+						<SearchField id="OrderSearch" search="onFilterListSearch" width="100%" app:List="OrderList"/>
+						<List id="idOrderList" items="{/SalesOrderTypeSet}" selectionChange="onSelectionChange" mode="MultiSelect" includeItemInSelection="true">
+							<items>
+								<StandardListItem title="{parts:[{path:'Auart'},{path:'Bezei'}],formatter:'formatter.formatOrderTyperValue'}" app:key="{Auart}"
+									app:title="{Bezei}" app:list="OrderList"/>
+							</items>
+						</List>
+					</l:VerticalLayout>
+				</customControl>
+			</ViewSettingsCustomItem>
+			<ViewSettingsCustomItem id="idYearFilterItem" text="Year" key="Year">
+				<customControl>
+					<l:VerticalLayout width="100%">
+						<!--<SearchField id="YearSearch" search="onSalesPersonSearch" width="100%" app:List="YearList"/>-->
+						<List id="idYearList" items="{/YearSet}" selectionChange="onSelectionChange" mode="SingleSelectLeft" includeItemInSelection="true">
+							<items>
+								<StandardListItem title="{Gjahr}" app:key="{Gjahr}" app:list="YearList"/>
+							</items>
+						</List>
+					</l:VerticalLayout>
+					<!--items="{/YearSet}"-->
+				</customControl>
+			</ViewSettingsCustomItem>
+			<ViewSettingsCustomItem id="idOrderStatus" text="Order Status" key="OrderStatus">
+				<customControl>
+					<l:VerticalLayout width="100%">
+						<List id="idOrderStatusList" selectionChange="onOrderStatusChange" mode="SingleSelectLeft" includeItemInSelection="true">
+							<items>
+								<StandardListItem title="Show All" app:key="" app:list="YearList"/>
+								<StandardListItem title="Open Orders" app:key="OPEN" app:list="YearList"/>
+								<StandardListItem title="Delivered Orders" app:key="DELIVERED" app:list="YearList"/>
+								<StandardListItem title="Cancelled Orders" app:key="CANCELLED" app:list="YearList"/>
+							</items>
+						</List>
+						<!--<SegmentedButton id="orderStatusBtn" select="onOrderChange" selectedKey="" class="sapUiSmallMarginTopBottom orderSegmentBtn">-->
+						<!--	<items>-->
+						<!--		<SegmentedButtonItem text="Show all" id="showBtn" class="showAll" key=""/>-->
+						<!--		<SegmentedButtonItem text="Open Orders" key="OPEN"/>-->
+						<!--		<SegmentedButtonItem id="deliveredBtn" text="Delivered Orders" key="DELIVERED"/>-->
+						<!--		<SegmentedButtonItem id="Cancelled" text="Cancelled Orders" key="CANCELLED"/>-->
+						<!--	</items>-->
+						<!--</SegmentedButton>-->
+					</l:VerticalLayout>
+					<!--items="{/YearSet}"-->
+				</customControl>
+			</ViewSettingsCustomItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

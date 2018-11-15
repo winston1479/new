@@ -1,0 +1,234 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns:l="sap.ui.layout" xmlns:t="sap.ui.table"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<l:HorizontalLayout id="orderInfoheader" class="infoLayout">
+		<l:VerticalLayout class="customerInfoLayout">
+			<HBox class="customerInfoTitle">
+				<Title class="customerInfoTitle" level="H3" titleStyle="H3" text="{i18n>customerInfo}"/>
+			</HBox>
+			<HBox>
+				<VBox class="customerInfoItem" alignContent="Center" justifyContent="Center">
+					<Text text="{i18n>customerType}"></Text>
+					<Text text="{i18n>soldToParty}"></Text>
+					<Text text="{i18n>country}"></Text>
+				</VBox>
+				<VBox class="customerInfoValue" alignContent="Center" justifyContent="Center">
+					<Text text="{path:'Ktext',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{path:'Ktext',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+					<Text text=" {path:'Spname',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip=" {path:'Spname',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+					<Text text="{path:'Spctryname',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{path:'Spctryname',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+				</VBox>
+			</HBox>
+		</l:VerticalLayout>
+		<l:VerticalLayout class="otherInfoLayout">
+			<HBox class="otherInfoTitle">
+				<Title class="customerInfoTitle" level="H3" titleStyle="H3" text="{i18n>otherInfo}"/>
+			</HBox>
+			<HBox>
+				<VBox class="customerInfo" alignContent="Center" justifyContent="Center">
+					<Text text="{i18n>freightType}"></Text>
+					<Text text="{i18n>customerPoNo}"></Text>
+					<Text text="{i18n>purchaseOrderNo}"></Text>
+					<Text text="{i18n>salesName}"/>
+				</VBox>
+				<VBox class="ShippingInfoValue" alignContent="Center" justifyContent="Center">
+					<Text text="{path:'Bezei',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{path:'Bezei',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+					<Text text="{path:'Bstnk',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{path:'Bstnk',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+					<Text text="{path:'PoNumber',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{path:'PoNumber',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+					<Text text="{path:'SalesPerson',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{SalesPerson}{path:'SalesPerson',formatter:'formatter.showBarForHeaderDetails'}"/>
+				</VBox>
+				<VBox class="customerInfoItem" alignContent="Center" justifyContent="Center">
+					<Text text="{i18n>incoterms}"></Text>
+					<Text text="{i18n>incoterms1}"></Text>
+					<Text text="{i18n>docCurrency}"></Text>
+					<Text text="{i18n>paymentTerm}"></Text>
+				</VBox>
+				<VBox class="customerInfoValue" alignContent="Center" justifyContent="Center">
+					<Text text="{Inco1} - {IncoName}" tooltip="{Inco1} - {IncoName}"></Text>
+					<Text text="{path:'Inco2',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{path:'Inco2',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+					<Text text="{path:'Waerk',formatter:'formatter.showBarForHeaderDetails'}"
+						tooltip="{path:'Waerk',formatter:'formatter.showBarForHeaderDetails'}"></Text>
+					<Text text="{Zterm}-{PaymentName}" tooltip="{Zterm}-{PaymentName}"></Text>
+				</VBox>
+			</HBox>
+		</l:VerticalLayout>
+		<l:VerticalLayout class="productInfoLayout">
+			<HBox class="actualDiscount">
+				<VBox class="customerInfoItem" alignContent="Center" justifyContent="Center">
+					<Text text="{i18n>total}"></Text>
+					<Text text="{i18n>discount}"></Text>
+					<Text text="{i18n>totalNet}"></Text>
+				</VBox>
+				<VBox class="customerInfoValue" alignContent="Center" justifyContent="Center">
+					<Text text="{ActualTotal}"></Text>
+					<Text text="{Discount}"></Text>
+					<Text text="{Netwr}"></Text>
+				</VBox>
+			</HBox>
+			<HBox class="totalWeight">
+				<VBox class="customerInfoItem" alignContent="Center" justifyContent="Center">
+					<Text text="{i18n>totalWeight}"></Text>
+					<Text text="{i18n>totalVolume}"></Text>
+				</VBox>
+				<VBox class="customerInfoValue" alignContent="Center" justifyContent="Center">
+					<Text text="{TotalWeight} kg"></Text>
+					<Text id="volume" text="{Zscbm} m"></Text>
+				</VBox>
+			</HBox>
+		</l:VerticalLayout>
+	</l:HorizontalLayout>
+	<t:Table selectionMode="None" id="ordersSectionTable" enableColumnReordering="true" class="ordersTblCls">
+		<!--fixedColumnCount="1"-->
+		<t:columns>
+			<t:Column sortProperty="Arktx" filterProperty="Arktx" autoResizable="false" width="340px" id="materialOrderInfo">
+				<t:label>
+					<Text text="{i18n>materialInfo}" class="fontTiny"/>
+				</t:label>
+				<t:template>
+					<HBox>
+						<VBox>
+							<Text text="{lineItemNumber}" class="articleNo"/>
+						</VBox>
+						<VBox>
+							<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/noimage.jpg" class="articleImg" densityAware="false"></Image>
+						</VBox>
+						<VBox class="articleDescription">
+							<HBox>
+								<Text text="{Arktx}" tooltip="{Arktx}" class="classBold fontMedium"/>
+							</HBox>
+							<HBox>
+								<Text text="Item No:" class="fontTiny"/>
+								<Text text="{Bismt}" tooltip="{Bismt}" class="classBold fontTiny"/>
+							</HBox>
+							<HBox>
+								<Text text="Packsize:" class="fontTiny"/>
+								<Text text="{PackQty}" tooltip="{PackQty}" class="classBold fontTiny"/>
+							</HBox>
+						</VBox>
+						<VBox class="articleHint">
+							<core:Icon src="sap-icon://hint" app:supplier="{NameOrg1}" app:packType="{Kondm}" id="hintIcons" class="hintIcon" press="hintIconPress"></core:Icon>
+						</VBox>
+					</HBox>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Shname" filterProperty="Shname" autoResizable="false" width="115px">
+				<t:label>
+					<Text text="{i18n>shipToPartyName}"/>
+				</t:label>
+				<t:template>
+					<Text text="{Shname}" tooltip="{Shname}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Shctryname" filterProperty="Shctryname" autoResizable="false" width="130px">
+				<t:label>
+					<Text text="{i18n>soldToPartyCountry}" tooltip="SKU Count"/>
+				</t:label>
+				<t:template>
+					<Text text="{Shctryname}" tooltip="{Shctryname}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Kwmeng" filterProperty="Kwmeng" autoResizable="false" width="65px">
+				<t:label>
+					<Text text="{i18n>quantity}"/>
+				</t:label>
+				<t:template>
+					<Text text="{parts: [{path:'Kwmeng'},{path:'Vbeln'}],formatter : 'formatter.formatQuantityvalue'}"
+						tooltip="{parts: [{path:'Kwmeng'},{path:'Vbeln'}],formatter : 'formatter.formatQuantityvalue'}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Netpr" filterProperty="Netpr" autoResizable="false" width="85px">
+				<t:label>
+					<Text text="{i18n>unitPrice}"/>
+				</t:label>
+				<t:template>
+					<Text text="{Netpr}" tooltip="{Netpr}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="TotalAmt" filterProperty="TotalAmt" autoResizable="false" width="100px">
+				<t:label>
+					<Text text="{i18n>salesValue}"/>
+				</t:label>
+				<t:template>
+					<Text text="{TotalAmt}" tooltip="{TotalAmt}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Vtext" filterProperty="Vtext" autoResizable="false" width="140px">
+				<t:label>
+					<Text text="{i18n>itemCatogory}"/>
+				</t:label>
+				<t:template>
+					<Text text="{Vtext}" tooltip="{Vtext}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Vdatu" filterProperty="Vdatu" autoResizable="false" width="120px">
+				<t:label>
+					<Text text="{i18n>customerShipdate}"/>
+				</t:label>
+				<t:template>
+					<Text text="{path:'Vdatu',formatter:'formatter.formatDateValue'}" tooltip="{path:'Vdatu',formatter:'formatter.formatDateValue'}"
+						class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Eindt" filterProperty="Eindt" autoResizable="false" width="120px">
+				<t:label>
+					<Text text="{i18n>expectedCRD}"/>
+				</t:label>
+				<t:template>
+					<Text text="{path:'Eindt',formatter:'formatter.formatDateValue'}" tooltip="{path:'Eindt',formatter:'formatter.formatDateValue'}"
+						class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="ActualShipment" filterProperty="ActualShipment" autoResizable="false" width="120px">
+				<t:label>
+					<Text text="{i18n>actualShipDate}"/>
+				</t:label>
+				<t:template>
+					<Text text="{path:'ActualShipment',formatter:'formatter.formatDateValue'}"
+						tooltip="{path:'ActualShipment',formatter:'formatter.formatDateValue'}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="BilledDate" filterProperty="BilledDate" autoResizable="false" width="120px">
+				<t:label>
+					<Text text="{i18n>billedDate}"/>
+				</t:label>
+				<t:template>
+					<Text text="{path:'BilledDate',formatter:'formatter.formatDateValue'}" tooltip="{path:'BilledDate',formatter:'formatter.formatDateValue'}"
+						class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="ExpctdInStore" filterProperty="ExpctdInStore" autoResizable="false" width="120px">
+				<t:label>
+					<Text text="{i18n>expectedDateInStores}"/>
+				</t:label>
+				<t:template>
+					<Text text="{path:'ExpctdInStore',formatter:'formatter.formatDateValue'}"
+						tooltip="{path:'ExpctdInStore',formatter:'formatter.formatDateValue'}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="PaymentDate" filterProperty="PcCountFilter" autoResizable="false" width="120px">
+				<t:label>
+					<Text text="{i18n>Payment}"/>
+				</t:label>
+				<t:template>
+					<Text text="{path:'PaymentDate',formatter:'formatter.formatDateValue'}"
+						tooltip="{path:'PaymentDate' ,formatter:'formatter.formatDateValue'}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+			<t:Column sortProperty="Status" filterProperty="Status" autoResizable="false" width="80px">
+				<t:label>
+					<Text text="{i18n>Status}"/>
+				</t:label>
+				<t:template>
+					<Text text="{OrderStatus}" tooltip="{OrderStatus}" class="classBold fontTiny"/>
+				</t:template>
+			</t:Column>
+		</t:columns>
+	</t:Table>
+</core:FragmentDefinition>

@@ -1,0 +1,64 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="zzuru.orders.orderSummaryZ_ORD_SUMMARY.controller.OrderView"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:tnt="sap.tnt">
+	<App>
+		<pages>
+			<SplitContainer id="outboundSplitAppId2" initialDetail="thirdView" mode="HideMode">
+				<detailPages>
+					<Page id="fourthView" title="{i18n>title}" class="ordSummaryHeaderClass" showNavButton="{path'','formatter:formatter.showOrHideNavBtn'}"
+						navButtonPress="goBack">
+						<headerContent>
+							<Button id="printBtnHeader" type="Transparent" icon="sap-icon://pdf-attachment" class="footerDownloadBtn" press="onPrint"/>
+							<Button id="navBack" text="Back" class="footerDownloadBtn tableView" press="goback"/>
+						</headerContent>
+						<!--icon="sap-icon://navigation-left-arrow"-->
+						<tnt:ToolHeader class="orderHeader">
+							<Button id="expandIcon" class="expandIcon" icon="sap-icon://navigation-right-arrow" visible="{path:'',formatter:'formatter.iconShow'}"
+								press="iconAction"></Button>
+							<HBox id="orderNoHbox">
+								<Label text="Order No. :" class="orderNumber"/>
+								<Text text="" class="orderText" id="salesOrderNo"/>
+							</HBox>
+							<tnt:ToolHeaderUtilitySeparator/>
+							<ToolbarSpacer>
+								<layoutData>
+									<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px"/>
+								</layoutData>
+							</ToolbarSpacer>
+							<HBox class="statusCreated">
+								<VBox>
+									<Text class="createdDate" text="Status : "/>
+								</VBox>
+								<VBox>
+									<Text text="" class="status" id="status"/>
+								</VBox>
+								<VBox>
+									<Text class="createdDate" text=" | PO Created Date : "/>
+								</VBox>
+								<VBox>
+									<Text text="" class="createdDate" id="createdDate"/>
+								</VBox>
+							</HBox>
+						</tnt:ToolHeader>
+						<content>
+							<Text text="Please Open in Landscape" id="hidePortraitView" visible="false" class="portraitMode"></Text>
+							<html:div id="parentPanel">
+								<core:Fragment fragmentName="zzuru.orders.orderSummaryZ_ORD_SUMMARY.fragments.OrdersSection" type="XML"/>
+							</html:div>
+						</content>
+						<footer>
+							<Bar id="footerBar" class="orderViewFooter" visible="{path:'',formatter:'formatter.showOrHideFooter'}">
+								<contentRight id="detailsContentRight">
+									<!--<Button type="Transparent" icon="sap-icon://refresh" text="Refresh Price" press="refreshPrice"></Button>-->
+									<Button id="printBtn" icon="sap-icon://pdf-attachment" class="footerDownloadBtn" press="onPrint"/>
+									<!--<Button class="footerDownloadBtn" press="onDownload" icon="sap-icon://download" tooltip="Download"/>-->
+								</contentRight>
+							</Bar>
+						</footer>
+					</Page>
+					<Page id="thirdView" title="{i18n>title}" showHeader="false"></Page>
+				</detailPages>
+			</SplitContainer>
+		</pages>
+	</App>
+</mvc:View>

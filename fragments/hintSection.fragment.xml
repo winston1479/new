@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<Popover class="sapUiPopupWithPadding supplierPopover" placement="Right">
+		<l:VerticalLayout class="supplierInfo">
+			<l:HorizontalLayout>
+				<Text text="Supplier" class="supplierDetails"/>
+				<Text text="" class="supplierName" id="supplier"/>
+			</l:HorizontalLayout>
+			<l:HorizontalLayout>
+				<Text text="Packaging Type" class="supplierDetails"/>
+				<Text text="" class="packType" id="packType"/>
+			</l:HorizontalLayout>
+		</l:VerticalLayout>
+	</Popover>
+</core:FragmentDefinition>

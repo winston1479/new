@@ -1,0 +1,270 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="zzuru.orders.orderSummaryZ_ORD_SUMMARY.controller.TableView" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:l="sap.ui.layout" xmlns:t="sap.ui.table" xmlns:com="sap.ui.commons">
+	<App>
+		<pages>
+			<SplitContainer id="outboundSplitAppId" initialDetail="firstView" mode="HideMode">
+				<detailPages>
+					<Page id="secondView" title="{i18n>title}" class="ordSummaryHeaderClass">
+						<headerContent >
+							<HBox id="orSummaryMblView" class="secondChild orderSearchSection">
+								<VBox class="filtersApplied">
+									<!--<SearchField width="90%" id="advanceSearchHeader" visible="{path:'',formatter:'formatter.showMobileHeader'}" class="tblSearchField"-->
+									<!--	placeholder="Search" search="onSearch"/>-->
+									<Button id="searchBtnHeader" icon="sap-icon://search" class="orderSummaryReset sapUiSmallMarginTopBottom"
+										visible="{path:'',formatter:'formatter.showMobileHeader'}" press="onSearch"></Button>
+								</VBox>
+								<VBox>
+									<Button id="resetBtnHeader" icon="sap-icon://refresh" class="orderSummaryReset sapUiSmallMarginTopBottom"
+										visible="{path:'',formatter:'formatter.showMobileHeader'}" press="onReset"></Button>
+								</VBox>
+								<ToolbarSeparator class="sapUiSmallMargin orderSeperator"/>
+								<VBox>
+									<Button icon="sap-icon://filter" id="filterBtnHeader" press="onFilterOpen"
+										class="ordSummaryFilter sapUiSmallMarginTopBottom sapUiSmallMarginEnd" visible="{path:'',formatter:'formatter.showMobileHeader'}"/>
+								</VBox>
+							</HBox>
+						</headerContent>
+						<content>
+							<!--<Button text="test" press="goTo"/>-->
+							<Text text="Please Open in Landscape" id="hidePortrait" visible="false" class="portraitMode"></Text>
+							<html:div id="overallPanel">
+								<HBox class="articleSearchFilter firstChild" id="orderSummaryCommonInfo">
+									<VBox class="articleImages">
+										<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/noimage.jpg" densityAware="false"></Image>
+									</VBox>
+									<HBox class="ordersShipping">
+										<VBox class="shippingInfo">
+											<HBox>
+												<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/shippinginfo.svg" densityAware="false"></Image>
+												<Text text="Shipping port" class="brandInformation"></Text>
+											</HBox>
+											<Text text="" class="containerInfo" id="shipPort"></Text>
+										</VBox>
+										<ToolbarSeparator/>
+										<VBox class="sapUiContentPadding">
+											<HBox>
+												<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/productionMOQ.svg" densityAware="false"></Image>
+												<Text text="Production on MOQ" class="brandInformation"></Text>
+											</HBox>
+											<Text text="" class="containerInfo" id="prodMoq"></Text>
+										</VBox>
+										<ToolbarSeparator/>
+										<VBox class="sapUiContentPadding">
+											<HBox>
+												<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/Firstshippingdate.svg" densityAware="false"></Image>
+												<Text text="First Ship Date" class="brandInformation"></Text>
+											</HBox>
+											<Text text="" class="containerInfo" id="firstShipDate"></Text>
+										</VBox>
+									</HBox>
+								</HBox>
+								<HBox class="secondChild orderSearchSection">
+									<VBox class="filtersApplied">
+										<!--<SearchField width="90%" id="advanceSearch" visible="{path:'',formatter:'formatter.showorHideCtrl'}"-->
+										<!--	class="sapUiSmallMarginTopBottom tblSearchField" placeholder="Search" search="onSearch"/>-->
+										<Button id="searchBtnHeader1" icon="sap-icon://search" class="orderSummaryReset sapUiSmallMarginTopBottom"
+											visible="{path:'',formatter:'formatter.showorHideCtrl'}" press="onSearch"></Button>
+									</VBox>
+									<VBox>
+										<SegmentedButton id="orderStatusBtn" visible="{path:'',formatter:'formatter.showorHideCtrl'}" select="onOrderChange" selectedKey=""
+											class="sapUiSmallMarginTopBottom orderSegmentBtn">
+											<items>
+												<SegmentedButtonItem text="Show all" id="showBtn" class="showAll" key=""/>
+												<SegmentedButtonItem text="Open Orders" key="OPEN"/>
+												<SegmentedButtonItem id="deliveredBtn" text="Delivered Orders" key="DELIVERED"/>
+												<SegmentedButtonItem id="Cancelled" text="Cancelled Orders" key="CANCELLED"/>
+											</items>
+										</SegmentedButton>
+									</VBox>
+									<ToolbarSeparator visible="{path:'',formatter:'formatter.showorHideCtrl'}" class="sapUiSmallMargin orderSeperator"/>
+									<VBox>
+										<Button text="Filter" icon="sap-icon://filter" id="filterBtn" press="onFilterOpen"
+											class="sapUiSmallMarginTopBottom sapUiSmallMarginEnd ordSummaryFilter" visible="{path:'',formatter:'formatter.showorHideCtrl'}"/>
+									</VBox>
+									<VBox class="filtersApplied">
+										<Button id="dateFilter" class="dateFilterCls sapUiSmallMarginTopBottom" tooltip="Date Filter" icon="sap-icon://appointment-2"
+											press="onDateFilter" visible="{path:'',formatter:'formatter.showorHideCtrl'}"/>
+									</VBox>
+								</HBox>
+								<Panel>
+									<ScrollContainer class="detailTblScr" height="100%" width="100%" horizontal="true" vertical="true" focusable="true">
+										<t:Table id="detailTable" sort="sortTable" class="orderSummaryTblView" enableSelectAll="false" selectionMode="None" ariaLabelledBy="title"
+											alternateRowColors="true">
+											<!--fixedColumnCount="3"-->
+											<t:columns>
+												<t:Column width="29px" id="materialId" class="firstCol">
+													<Label text="" textAlign="Center" width="100%"/>
+													<t:template>
+														<Image src="{parts: [{path:'OrderStatus'},{path:'VbelnNum'}],formatter : 'formatter.showStatusImage'}" densityAware="false" width="20px"/>
+														<!--	<Image src="{path:'OrderStatus',formatter:'formatter.showStatusImage'}" densityAware="false" width="20px"></Image>-->
+													</t:template>
+												</t:Column>
+												<t:Column width="120px" id="materialId1" sortProperty="VbelnNum">
+													<Label text="{i18n>salesOrderNo}" textAlign="Center" width="100%"/>
+													<t:template>
+														<Link text="{VbelnNum}" press="navigateToOrderView"></Link>
+													</t:template>
+												</t:Column>
+												<!--tooltip="{Vbeln}"-->
+												<t:Column width="120px" id="oldMaterialId" sortProperty="Bismt">
+													<Label text="{i18n>oldMaterialId}" textAlign="Center" width="100%"/>
+													<t:template>
+														<Text text="{parts: [{path:'Bismt'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{parts: [{path:'Bismt'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="90px" sortProperty="PackQtySort">
+													<Label text="{i18n>packSize}"/>
+													<t:template>
+														<Text text="{parts: [{path:'PackQtySort'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'PackQtySort',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="105px" sortProperty="Erdat">
+													<Label text="{i18n>createdDate}"/>
+													<t:template>
+														<Text text="{parts: [{path:'Erdat'},{path:'VbelnNum'}],formatter : 'formatter.formatDateValue'}"
+															tooltip="{path:'Erdat',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="185px" sortProperty="Spname">
+													<Label text="{i18n>soldToParty}"/>
+													<t:template>
+														<Text text="{parts: [{path:'Spname'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{parts: [{path:'Spname'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="163px" sortProperty="Spctryname">
+													<Label text="{i18n>soldToPartyCountry}"/>
+													<t:template>
+														<Text text="{parts: [{path:'Spctryname'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'Spctryname',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="185px" sortProperty="Shname">
+													<Label text="{i18n>shipToParty}"/>
+													<t:template>
+														<Text text="{parts: [{path:'Shname'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'Shname',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="163px" sortProperty="Shctryname">
+													<Label text="{i18n>shipToCountry}"/>
+													<t:template>
+														<Text text="{parts: [{path:'Shctryname'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'Shctryname',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="78px" sortProperty="KwmengSort">
+													<Label text="{i18n>quantity}" textAlign="Center" width="100%"/>
+													<t:template>
+														<Text text="{parts: [{path:'KwmengSort'},{path:'VbelnNum'}],formatter : 'formatter.formatQuantityvalue'}"
+															tooltip="{parts: [{path:'KwmengSort'},{path:'VbelnNum'}],formatter : 'formatter.formatQuantityvalue'}"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="105px" hAlign="Center" sortProperty="NetprSort">
+													<Label text="{i18n>unitPrice}"/>
+													<t:template>
+														<Text text="{parts: [{path:'NetprSort'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'NetprSort',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="130px" hAlign="Center" sortProperty="TotalAmtSort">
+													<Label text="{i18n>totalAmount}"/>
+													<t:template>
+														<Text text="{parts: [{path:'TotalAmtSort'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'TotalAmt',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="130px" hAlign="Center" sortProperty="PoNumberSort">
+													<Label text="{i18n>PoNumber}"/>
+													<t:template>
+														<Text text="{parts: [{path:'PoNumberSort'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'PoNumber',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="160px" hAlign="Center" sortProperty="Vdatu">
+													<Label text="{i18n>customerShipdate}"/>
+													<t:template>
+														<Text text="{parts: [{path:'Vdatu'},{path:'VbelnNum'}],formatter : 'formatter.formatDateValue'}"
+															tooltip="{path:'Vdatu',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="140px" hAlign="Center" sortProperty="Eindt">
+													<Label text="{i18n>expectedCRD}"/>
+													<t:template>
+														<Text text="{parts: [{path:'Eindt'},{path:'VbelnNum'}],formatter : 'formatter.formatDateValue'}"
+															tooltip="{path:'Eindt',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="150px" hAlign="Center" sortProperty="ActualShipment">
+													<Label text="{i18n>actualShipDate}"/>
+													<t:template>
+														<Text text="{parts: [{path:'ActualShipment'},{path:'VbelnNum'}],formatter : 'formatter.formatDateValue'}"
+															tooltip="{path:'ActualShipment',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="100px" hAlign="Center" sortProperty="BilledDate">
+													<Label text="{i18n>billedDate}"/>
+													<t:template>
+														<Text text="{parts: [{path:'BilledDate'},{path:'VbelnNum'}],formatter : 'formatter.formatDateValue'}"
+															tooltip="{path:'BilledDate',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="190px" hAlign="Center" sortProperty="ExpctdInStore">
+													<Label text="{i18n>expectedDateInStores}"/>
+													<t:template>
+														<Text text="{parts: [{path:'ExpctdInStore'},{path:'VbelnNum'}],formatter : 'formatter.formatDateValue'}"
+															tooltip="{path:'ExpctdInStore',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="100px" hAlign="Center" sortProperty="PaymentDate">
+													<Label text="{i18n>Payment}"/>
+													<t:template>
+														<Text text="{parts: [{path:'PaymentDate'},{path:'VbelnNum'}],formatter : 'formatter.formatDateValue'}"
+															tooltip="{path:'PaymentDate',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+												<t:Column width="140px" hAlign="Center" sortProperty="SalesPerson">
+													<Label text="{i18n>salesName}"/>
+													<t:template>
+														<Text text="{parts: [{path:'SalesPerson'},{path:'VbelnNum'}],formatter : 'formatter.showBarOnNoData'}"
+															tooltip="{path:'SalesPerson',formatter:'formatter.showBarOnNoData'}" wrapping="false"/>
+													</t:template>
+												</t:Column>
+											</t:columns>
+										</t:Table>
+									</ScrollContainer>
+								</Panel>
+							</html:div>
+						</content>
+						<footer class="tableViewFooter">
+							<Bar id="footerBar">
+								<contentMiddle>
+									<Label text="" id="pagingText" class="pagingText"></Label>
+								</contentMiddle>
+								<contentRight id="detailsContentRight">
+									<Button id="prevBtn" class="paginatorBtnCls" icon="sap-icon://close-command-field"
+										visible="{path:'',formatter:'formatter.showOrHidePaginator'}" tooltip="Show Previous Page" press="onPrevPagingBtnPress" enabled="false"/>
+									<Text text="" id="pageText" class="pageClass" visible="{path:'',formatter:'formatter.showOrHidePaginator'}"/>
+									<Button id="nextBtn" class="paginatorBtnCls" icon="sap-icon://open-command-field"
+										visible="{path:'',formatter:'formatter.showOrHidePaginator'}" tooltip="Show next page" press="onNextPagingBtnPress"/>
+									<!--<PagingButton count="2" position="1"/>-->
+									<!--<Button type="Transparent" icon="sap-icon://refresh" text="Refresh Price" press="refreshPrice"></Button>-->
+									<!--<Button id="refreshBtn" class="footerBtn" tooltip="refresh" icon="sap-icon://refresh" press="onRefresh"></Button>-->
+									<Button id="resetBtn" class="footerBtn" text="Reset" press="onReset" visible="{path:'',formatter:'formatter.showOrHideReset'}"></Button>
+									<!--<Button id="printBtn" text="Print" class="footerBtn" press="onPrint"/>-->
+									<Button class="footerDownloadBtn" id="footerDownloadBtn" press="onDownload" icon="sap-icon://download" tooltip="Download"
+										visible="{path:'',formatter:'formatter.showOrHideReset'}"/>
+								</contentRight>
+							</Bar>
+						</footer>
+					</Page>
+					<Page id="firstView" showHeader="false"></Page>
+				</detailPages>
+			</SplitContainer>
+		</pages>
+	</App>
+</mvc:View>
+<!--visible="{path:'',formatter:'formatter.showOrHidePaginator'}"-->

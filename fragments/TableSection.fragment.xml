@@ -1,0 +1,182 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout" xmlns:t="sap.ui.table">
+	<HBox class="articleSearchFilter firstChild" id="orderSummaryCommonInfo">
+		<VBox class="articleImages">
+			<Image src="../images/logo.png" densityAware="false"></Image>
+		</VBox>
+		<HBox class="ordersShipping">
+			<VBox class="shippingInfo">
+				<HBox>
+					<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/shippinginfo.svg" densityAware="false"></Image>
+					<Text text="Shipping port" class="brandInformation"></Text>
+				</HBox>
+				<Text text="" class="containerInfo" id="shipPort"></Text>
+			</VBox>
+			<ToolbarSeparator/>
+			<VBox class="sapUiContentPadding">
+				<HBox>
+					<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/productionMOQ.svg" densityAware="false"></Image>
+					<Text text="Production on MOQ" class="brandInformation"></Text>
+				</HBox>
+				<Text text="" class="containerInfo" id="prodMoq"></Text>
+			</VBox>
+			<ToolbarSeparator/>
+			<VBox class="sapUiContentPadding">
+				<HBox>
+					<Image src="/sap/bc/ui5_ui5/sap/z_ord_summary/images/Firstshippingdate.svg" densityAware="false"></Image>
+					<Text text="First Ship Date" class="brandInformation"></Text>
+				</HBox>
+				<Text text="" class="containerInfo" id="firstShipDate"></Text>
+			</VBox>
+		</HBox>
+	</HBox>
+	<HBox class="secondChild orderSearchSection">
+		<VBox class="filtersApplied">
+			<SearchField width="90%" id="advanceSearch" class="sapUiSmallMarginTopBottom tblSearchField" placeholder="Search" search="onSearch"/>
+		</VBox>
+		<!--<VBox>-->
+		<!--	<SegmentedButton id="orderStatusBtn" select="onOrderChange" selectedKey="" class="sapUiSmallMarginTopBottom orderSegmentBtn">-->
+		<!--		<items>-->
+		<!--			<SegmentedButtonItem text="Show all" id="showBtn" class="showAll" key=""/>-->
+		<!--			<SegmentedButtonItem text="Open Orders" key="OPEN"/>-->
+		<!--			<SegmentedButtonItem id="deliveredBtn" text="Delivered Orders" key="DELIVERED"/>-->
+		<!--			<SegmentedButtonItem id="Cancelled" text="Cancelled Orders" key="CANCELLED"/>-->
+		<!--		</items>-->
+		<!--	</SegmentedButton>-->
+		<!--</VBox>-->
+		<ToolbarSeparator class="sapUiSmallMargin orderSeperator"/>
+		<VBox>
+			<Button text="Filter" icon="sap-icon://filter" id="filterBtn" press="onFilterOpen"
+				class="sapUiSmallMarginTopBottom sapUiSmallMarginEnd ordSummaryFilter"/>
+		</VBox>
+	</HBox>
+	<Panel>
+		<t:Table id="detailTable" class="orderSummaryTblView" enableSelectAll="false" selectionMode="None" fixedColumnCount="3"
+			ariaLabelledBy="title" alternateRowColors="true" enableColumnFreeze="true">
+			<t:columns>
+				<t:Column width="29px" id="materialId" class="firstCol">
+					<Label text="" textAlign="Center" width="100%"/>
+					<t:template>
+						<Image src="{path:'OrderStatus',formatter:'formatter.showStatusImage'}" densityAware="false" width="20px"></Image>
+					</t:template>
+				</t:Column>
+				<t:Column width="120px" id="materialId1" sortProperty="Vbeln" filterProperty="Vbeln">
+					<Label text="{i18n>salesOrderNo}" textAlign="Center" width="100%"/>
+					<t:template>
+						<Link text="{Vbeln}" press="navigateToOrderView" tooltip="{Vbeln}"></Link>
+					</t:template>
+				</t:Column>
+				<t:Column width="120px" id="oldMaterialId" sortProperty="Bismt" filterProperty="Bismt">
+					<Label text="{i18n>oldMaterialId}" textAlign="Center" width="100%"/>
+					<t:template>
+						<Text text="{Bismt}" tooltip="{Bismt}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="80px" sortProperty="PackQty" filterProperty="PackQty">
+					<Label text="{i18n>packSize}"/>
+					<t:template>
+						<Text text="{PackQty}" tooltip="{PackQty}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="100px" sortProperty="Erdat" filterProperty="Erdat">
+					<Label text="{i18n>createdDate}"/>
+					<t:template>
+						<Text text="{path:'Erdat',formatter:'formatter.formatDateValue'}" tooltip="{path:'Erdat',formatter:'formatter.formatDateValue'}"
+							wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="130px" sortProperty="Spname" filterProperty="Spname">
+					<Label text="{i18n>soldToParty}"/>
+					<t:template>
+						<Text text="{Spname}" tooltip="{Spname}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="150px" sortProperty="Spctryname" filterProperty="Spctryname">
+					<Label text="{i18n>soldToPartyCountry}"/>
+					<t:template>
+						<Text text="{Spctryname}" tooltip="{Spctryname}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="130px" sortProperty="Shname" filterProperty="Shname">
+					<Label text="{i18n>shipToParty}"/>
+					<t:template>
+						<Text text="{Shname}" tooltip="{Shname}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="150px" sortProperty="Shctryname" filterProperty="Shctryname">
+					<Label text="{i18n>shipToCountry}"/>
+					<t:template>
+						<Text text="{Shctryname}" tooltip="{Shctryname}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="75px" sortProperty="Kwmeng" filterProperty="Kwmeng">
+					<Label text="{i18n>quantity}" textAlign="Center" width="100%"/>
+					<t:template>
+						<Text text="{path:'Kwmeng',formatter:'formatter.formatQuantityvalue'}" tooltip="{path:'Kwmeng',formatter:'formatter.formatQuantityvalue'}"></Text>
+					</t:template>
+				</t:Column>
+				<t:Column width="100px" hAlign="Center" sortProperty="Netpr" filterProperty="Netpr">
+					<Label text="{i18n>unitPrice}"/>
+					<t:template>
+						<Text text="{Netpr}" tooltip="{Netpr}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="110px" hAlign="Center" sortProperty="TotalAmt" filterProperty="TotalAmt">
+					<Label text="{i18n>totalAmount}"/>
+					<t:template>
+						<Text text="{TotalAmt}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="130px" hAlign="Center" sortProperty="PoNumber" filterProperty="PoNumber">
+					<Label text="{i18n>PoNumber}"/>
+					<t:template>
+						<Text text="{PoNumber}" tooltip="{PoNumber}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="160px" hAlign="Center" sortProperty="Vdatu" filterProperty="Vdatu">
+					<Label text="{i18n>customerShipdate}"/>
+					<t:template>
+						<Text text="{path:'Vdatu',formatter:'formatter.formatDateValue'}" tooltip="{path:'Vdatu',formatter:'formatter.formatDateValue'}"
+							wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="140px" hAlign="Center" sortProperty="Eindt" filterProperty="Eindt">
+					<Label text="{i18n>expectedCRD}"/>
+					<t:template>
+						<Text text="{path:'Eindt',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="150px" hAlign="Center" sortProperty="ActualShipment" filterProperty="ActualShipment">
+					<Label text="{i18n>actualShipDate}"/>
+					<t:template>
+						<Text text="{path:'ActualShipment',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="100px" hAlign="Center" sortProperty="billedDate" filterProperty="billedDate">
+					<Label text="{i18n>billedDate}"/>
+					<t:template>
+						<Text text="{path:'BilledDate',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="190px" hAlign="Center" sortProperty="ExpctdInStore" filterProperty="ExpctdInStore">
+					<Label text="{i18n>expectedDateInStores}"/>
+					<t:template>
+						<Text text="{path:'ExpctdInStore',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="100px" hAlign="Center" sortProperty="PaymentDate" filterProperty="PaymentDate">
+					<Label text="{i18n>Payment}"/>
+					<t:template>
+						<Text text="{path:'PaymentDate',formatter:'formatter.formatDateValue'}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column width="140px" hAlign="Center" sortProperty="SalesPerson" filterProperty="SalesPerson">
+					<Label text="{i18n>salesName}"/>
+					<t:template>
+						<Text text="{SalesPerson}" tooltip="{SalesPerson}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+			</t:columns>
+		</t:Table>
+	</Panel>
+</core:FragmentDefinition>

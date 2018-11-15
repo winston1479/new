@@ -1,0 +1,2921 @@
+                                    .ShippingInfoValue .sapMText,
+                                    .customerInfo .sapMText {
+                                        font-size: 12px
+                                    }
+                                    
+                                    .articleImg,
+                                    .orderArticleImg {
+                                        -o-object-fit: contain;
+                                        vertical-align: top;
+                                        object-fit: contain;
+                                        display: -moz-inline-stack
+                                    }
+                                    
+                                    html * {
+                                        font-family: 'Source Sans Pro', sans-serif, SAP-icons!important
+                                    }
+                                    
+                                    body,
+                                    html {
+                                        min-height: 100%!important;
+                                        height: 100%
+                                    }
+                                    
+                                    .ordSummaryApp {
+                                        background: #fff
+                                    }
+                                    
+                                    .headerSelectClass {
+                                        background: #c00;
+                                        border: none;
+                                        max-width: 100%;
+                                        margin-right: 25px!important;
+                                        margin-top: 10px;
+                                        width: 150px!important;
+                                        height: 35px!important;
+                                        color: #fff
+                                    }
+                                    
+                                    .ShippingInfoValue,
+                                    .freightDetails {
+                                        border-width: 3px 3px 3px 0;
+                                        border-style: solid
+                                    }
+                                    
+                                    .headerSelectClass:hover {
+                                        background: #c00!important
+                                    }
+                                    
+                                    .headerSelectClass .sapMSltArrow {
+                                        line-height: 2rem!important
+                                    }
+                                    
+                                    .orderSummaryDtlPage .sapMPageHeader {
+                                        background: #000!important
+                                    }
+                                    
+                                    .orderSummaryMstPage .sapMPageHeader {
+                                        background: gray!important
+                                    }
+                                    
+                                    .hdrBtnContainer .sapMHdrCntrItemCntr {
+                                        width: 40%
+                                    }
+                                    
+                                    .hdrSearchFieldContainer .sapMHdrCntrItemCntr {
+                                        width: 95%
+                                    }
+                                    
+                                    .tblSearchField .sapMSFB:hover {
+                                        cursor: pointer
+                                    }
+                                    
+                                    .hdrBtnContainer,
+                                    .hdrSearchFieldContainer {
+                                        background: #666!important
+                                    }
+                                    
+                                    .orderSummaryDtlPage .sapMSplitContainerMasterBtn {
+                                        margin-top: 10px
+                                    }
+                                    
+                                    .customerInfoLayout,
+                                    .otherInfoLayout {
+                                        background: #E6E6E6;
+                                        border-radius: 4px;
+                                        margin: 17px 0 17px 10px
+                                    }
+                                    
+                                    .mstHeaderBtnClass span {
+                                        color: #fff
+                                    }
+                                    
+                                    .customerInfoItem .sapMText,
+                                    .customerInfoValue .sapMText {
+                                        color: #4d4d4d!important;
+                                        font-size: 12px
+                                    }
+                                    
+                                    .ShippingInfoValue .sapMText,
+                                    .customerInfoValue .sapMText {
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        width: 100px
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMText.sapMObjLTitle,
+                                    .ordersListItemCls .sapMText.sapMObjLTitle {
+                                        white-space: nowrap!important;
+                                        text-overflow: ellipsis!important;
+                                        overflow: hidden;
+                                        line-height: 1.25rem;
+                                        vertical-align: top
+                                    }
+                                    
+                                    .customerInfoLayout {
+                                        padding: 4px 10px 37px 15px
+                                    }
+                                    
+                                    .customerInfoTitle {
+                                        line-height: 10px;
+                                        padding-top: 5px;
+                                        padding-bottom: 7px
+                                    }
+                                    
+                                    .otherInfoLayout {
+                                        padding: 4px 10px 13px 15px
+                                    }
+                                    
+                                    .otherInfoTitle {
+                                        line-height: 10px;
+                                        padding: 5px 0
+                                    }
+                                    
+                                    .customerInfoItem,
+                                    .otherInfoLayout .customerInfoItem {
+                                        line-height: 20px;
+                                        padding-right: 25px
+                                    }
+                                    
+                                    .customerInfo {
+                                        line-height: 20px;
+                                        padding-right: 40px
+                                    }
+                                    
+                                    .totalWeight .customerInfoItem {
+                                        line-height: 20px;
+                                        padding-right: 2px
+                                    }
+                                    
+                                    .actualDiscount .customerInfoItem {
+                                        line-height: 20px;
+                                        padding-right: 70px;
+                                        font-weight: 600
+                                    }
+                                    
+                                    .customerInfoValue {
+                                        line-height: 20px;
+                                        padding-right: 10px;
+                                        font-weight: 700
+                                    }
+                                    
+                                    .ShippingInfoValue {
+                                        line-height: 20px;
+                                        padding: 0 10px 0 0;
+                                        margin-right: 15px;
+                                        font-weight: 700;
+                                        -webkit-border-image: -webkit-linear-gradient(to left, #fff, #ababab) 1 100%;
+                                        -moz-border-image: -moz-linear-gradient(to left, #fff, #ababab) 1 100%;
+                                        -o-border-image: -o-linear-gradient(to left, #fff, #ababab) 1 100%;
+                                        border-image: linear-gradient(to left, #fff, #ababab) 1 100%
+                                    }
+                                    
+                                    .customerInfoTitle.sapMTitleStyleH3 {
+                                        font-size: 14px;
+                                        font-weight: 700;
+                                        padding: 5px 0;
+                                        color: #333
+                                    }
+                                    
+                                    .totalWeight {
+                                        padding-top: 20px
+                                    }
+                                    
+                                    .freightDetails {
+                                        height: 65px;
+                                        -webkit-border-image: -webkit-linear-gradient(to left, #ababab, #fff) 1 100%;
+                                        -moz-border-image: -moz-linear-gradient(to left, #ababab, #fff) 1 100%;
+                                        -o-border-image: -o-linear-gradient(to left, #ababab, #fff) 1 100%;
+                                        border-image: linear-gradient(to left, #fff, #ccc9c9) 1 100%
+                                    }
+                                    
+                                    .orderArticleImg {
+                                        width: 42px;
+                                        height: 42px;
+                                        margin-right: 20px;
+                                        max-width: 100%;
+                                        max-height: 100%;
+                                        line-height: 1.42857143;
+                                        background-color: #fff;
+                                        display: inline-block;
+                                        padding: 3px
+                                    }
+                                    
+                                    .ordSummaryListCls .sapMObjLItem {
+                                        cursor: pointer;
+                                        padding: .4rem;
+                                        height: 125px
+                                    }
+                                    
+                                    .ordSummaryListCls .sapMObjLItem>.sapMLIBContent {
+                                        height: 125px
+                                    }
+                                    
+                                    .infoLayout {
+                                        width: 100%
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMObjLIntro {
+                                        font-weight: 700
+                                    }
+                                    
+                                    .searchArea .sapMTBSeparator {
+                                        width: .0625rem;
+                                        margin-left: 1.375rem!important;
+                                        height: 2rem;
+                                        background: #fff
+                                    }
+                                    
+                                    .shipDateText {
+                                        float: right
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMObjectAttributeDiv span {
+                                        font-size: .75rem!important;
+                                        color: #000;
+                                        font-weight: 700
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapMPanelContent {
+                                        padding: 0;
+                                        margin-top: 5px
+                                    }
+                                    
+                                    .ordSummaryListItemCls>.sapMImg {
+                                        max-height: 5rem;
+                                        max-width: 5rem
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMText.sapMObjLTitle {
+                                        width: 270px;
+                                        color: #000;
+                                        font-size: .75rem
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMObjLIcon {
+                                        width: 80px!important;
+                                        height: 85px!important;
+                                        margin-top: 32px;
+                                        max-width: 100px!important;
+                                        max-height: 100px!important;
+                                        border: 1px solid #e2e2e2;
+                                        border-radius: 2px
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMObjLIntro:span {
+                                        font-weight: 700!important
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMObjLIconDiv {
+                                        margin-right: 0!important;
+                                        width: 0!important;
+                                        height: 1rem!important
+                                    }
+                                    
+                                    .ordSummaryListItemCls .sapMObjLBottomRow {
+                                        margin-left: 6rem;
+                                        margin-top: 1rem
+                                    }
+                                    
+                                    .objAttrCls {
+                                        font-size: .75rem!important
+                                    }
+                                    
+                                    .sapMLIB.sapMLIBSelected,
+                                    .sapMLIB.sapMLIBSelected:hover {
+                                        background: 0 0
+                                    }
+                                    
+                                    .soNumberLblParentCls {
+                                        width: 60%
+                                    }
+                                    
+                                    .shipDateTextParentCls {
+                                        width: 50%;
+                                        float: right
+                                    }
+                                    
+                                    .orderListTopRow {
+                                        width: 100%
+                                    }
+                                    
+                                    .soNumberLblCls {
+                                        color: #000
+                                    }
+                                    
+                                    .companyNameCls {
+                                        color: #0071BC!important;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        margin-left: 3px
+                                    }
+                                    
+                                    .ordersListItemCls .sapMObjectAttributeDiv span {
+                                        font-size: .75rem!important;
+                                        color: #000;
+                                        font-weight: 700
+                                    }
+                                    
+                                    .ordersListItemCls>.sapMImg {
+                                        max-height: 5rem;
+                                        max-width: 5rem
+                                    }
+                                    
+                                    .ordersListItemCls .sapMText.sapMObjLTitle {
+                                        width: 270px;
+                                        color: #000;
+                                        font-size: .75rem
+                                    }
+                                    
+                                    .orderButton .sapMBtnContent,
+                                    .productButton .sapMBtnContent {
+                                        line-height: 1.6
+                                    }
+                                    
+                                    .ordersListItemCls .sapMObjLIcon {
+                                        width: 80px!important;
+                                        height: 85px!important;
+                                        margin-top: 32px;
+                                        max-width: 100px!important;
+                                        max-height: 100px!important;
+                                        border: 1px solid #e2e2e2;
+                                        border-radius: 2px
+                                    }
+                                    
+                                    .articleImages img,
+                                    .articleImg {
+                                        max-width: 100%;
+                                        max-height: 100%
+                                    }
+                                    
+                                    .ordersListItemCls .sapMObjLIntro:span {
+                                        font-weight: 700!important
+                                    }
+                                    
+                                    .ordersListItemCls .sapMObjLIconDiv {
+                                        margin-right: 0!important;
+                                        width: 0!important;
+                                        height: 1rem!important
+                                    }
+                                    
+                                    .ordSummaryOrderListCls .sapMObjLItem {
+                                        cursor: pointer;
+                                        padding: .4rem
+                                    }
+                                    
+                                    .deliveryIconCls {
+                                        height: 20px;
+                                        width: 20px;
+                                        margin: 0!important;
+                                        float: right
+                                    }
+                                    
+                                    .createdDateInfo {
+                                        width: 100%
+                                    }
+                                    
+                                    .createdLblParentCls {
+                                        width: 60%
+                                    }
+                                    
+                                    .deliveryIconParentCls {
+                                        width: 40%
+                                    }
+                                    
+                                    .selectedItemCls {
+                                        background: 0 0;
+                                        border-left: 8px solid #0071BC
+                                    }
+                                    
+                                    .ordersListItemCls .sapMObjLIntro {
+                                        padding-bottom: 0!important;
+                                        font-weight: 700
+                                    }
+                                    
+                                    .ordersListItemCls .sapMObjLTopRow {
+                                        float: left;
+                                        width: 100%;
+                                        margin-top: 8px
+                                    }
+                                    
+                                    .ordersListItemCls .sapMObjLTitle {
+                                        display: none
+                                    }
+                                    
+                                    .createdDateCls {
+                                        width: 70%;
+                                        margin-top: 14px;
+                                        font-size: 12px
+                                    }
+                                    
+                                    .deliveryStatusImg {
+                                        width: 30%
+                                    }
+                                    
+                                    .deliveryStatusImg img {
+                                        width: 25px;
+                                        height: 25px;
+                                        float: right;
+                                        margin: 0!important
+                                    }
+                                    
+                                    .shipDateDiv {
+                                        float: right;
+                                        font-weight: 500
+                                    }
+                                    
+                                    .orderButton {
+                                        margin-left: 40px!important
+                                    }
+                                    
+                                    .salesOrderMaster .sapMTBSeparator {
+                                        width: .1rem;
+                                        height: 1.2rem;
+                                        background: #fff;
+                                        margin-left: 20px!important
+                                    }
+                                    
+                                    .salesOrderMaster .sapMListUl {
+                                        border-right: solid 1px #878787
+                                    }
+                                    
+                                    .orderButton .sapMBtnInner,
+                                    .productButton .sapMBtnInner {
+                                        height: 25px;
+                                        background-color: none;
+                                        border: none;
+                                        color: #fff;
+                                        font-size: 15px;
+                                        font-weight: 600;
+                                        text-shadow: none
+                                    }
+                                    
+                                    .orderButton .sapMBtn:hover>.sapMBtnHoverable {
+                                        color: #fff
+                                    }
+                                    
+                                    .productButton {
+                                        margin-left: 35px!important
+                                    }
+                                    
+                                    .productButton .sapMBtn:hover>.sapMBtnHoverable {
+                                        color: #000
+                                    }
+                                    
+                                    .searchArea {
+                                        background: gray;
+                                        border-bottom: none
+                                    }
+                                    
+                                    .orderSummaryMstPage section {
+                                        overflow-x: hidden!important;
+                                        overflow-y: hidden!important
+                                    }
+                                    
+                                    .ordSummaryListCls,
+                                    .ordSummaryOrderListCls {
+                                        overflow-x: hidden;
+                                        overflow-y: auto;
+                                        height: 481px
+                                    }
+                                    
+                                    .ordSummaryListCls {
+                                        width: 100%;
+                                        background: #fff
+                                    }
+                                    
+                                    .ordSummaryApp .sapMSplitContainerMaster {
+                                        margin-top: 12px
+                                    }
+                                    
+                                    .infoLayout .sapUiHLayoutChildWrapper {
+                                        display: inline!important
+                                    }
+                                    
+                                    .advancedSearch .sapMDialogSubHeader,
+                                    .supplierPopover .sapMPopoverHeader {
+                                        display: none
+                                    }
+                                    
+                                    .supplierPopover {
+                                        border-radius: 5px;
+                                        border: none;
+                                        /*left: 365px!important;*/
+                                        /*top: 300px!important*/
+                                    }
+                                    
+                                    .supplierPopover .sapMPopoverArrLeft {
+                                        border-color: transparent #fff transparent transparent;
+                                        left: -29px!important;
+                                        top: 20px!important
+                                    }
+                                    
+                                    .supplierPopover .sapMPopoverArr:after {
+                                        border-right-color: #fff!important
+                                    }
+                                    
+                                    .customerInfoLblCls {
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        padding-bottom: 3%;
+                                        padding-top: 3%
+                                    }
+                                    
+                                    .customerInfoHeading div,
+                                    .hLayoutInfoCls {
+                                        width: 100%
+                                    }
+                                    
+                                    .hLayoutLblCls,
+                                    .resultTxtCls {
+                                        width: 50%;
+                                        font-size: 12px
+                                    }
+                                    
+                                    .packSize {
+                                        left: 30px
+                                    }
+                                    
+                                    .packSizeData {
+                                        padding-left: 30px
+                                    }
+                                    
+                                    .productInfoLayout {
+                                        margin-right: 10px;
+                                        float: right;
+                                        background: #F4D969;
+                                        margin-top: 17px;
+                                        border-radius: 4px;
+                                        padding: 8px 10px 3px 15px
+                                    }
+                                    
+                                    .otherInfoChildLayout {
+                                        width: 100%;
+                                        padding-left: 10px
+                                    }
+                                    
+                                    .otherInfoLeftLayout {
+                                        width: 48%
+                                    }
+                                    
+                                    .otherInfoRightLayout {
+                                        width: 48%;
+                                        margin-top: 20px
+                                    }
+                                    
+                                    .otherInfoMiddleLayout {
+                                        width: 4%;
+                                        margin-top: 25px
+                                    }
+                                    
+                                    .articleHint,
+                                    .topMarginClass {
+                                        margin-top: 32px
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableCol {
+                                        background-color: grey!important;
+                                        color: #fff!important;
+                                        border-right: none!important
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableCtrlFixed .sapUiTableCol.sapUiTableColLastFixed,
+                                    .sapUiTableCtrlFixed .sapUiTableTr:not(.sapUiTableGroupHeader)>td:last-child {
+                                        border-right: none!important
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableTr>td {
+                                        border-right: none;
+                                        border-bottom: 1px solid #e5e5e5!important
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableCol .sapUiTableColCell span {
+                                        color: #fff;
+                                        font-size: 12px!important;
+                                        font-weight: 500;
+                                        vertical-align: top;
+                                        white-space: nowrap
+                                    }
+                                    
+                                    .articleNo,
+                                    .classBold,
+                                    .clsBoldAndColored,
+                                    .packType,
+                                    .supplierName {
+                                        font-weight: 600
+                                    }
+                                    
+                                    .fontMedium,
+                                    .fontTiny {
+                                        font-size: 12px!important
+                                    }
+                                    
+                                    .fontLarge {
+                                        font-size: 16px
+                                    }
+                                    
+                                    .hintIcon {
+                                        font-family: SAP-icons;
+                                        font-size: 10px;
+                                        width: 10px;
+                                        height: 10px;
+                                        border: 1px solid #0071bc;
+                                        border-radius: 10px;
+                                        padding: 2px;
+                                        background: #0071bc;
+                                        color: #fff;
+                                        line-height: 11px
+                                    }
+                                    
+                                    .hintIcon.sapUiIcon:focus {
+                                        outline: 0!important
+                                    }
+                                    
+                                    .articleNo {
+                                        padding-right: 10px;
+                                        padding-top: 23px
+                                    }
+                                    
+                                    .articleImg {
+                                        width: 42px;
+                                        height: 42px;
+                                        float: left;
+                                        margin-right: 3px;
+                                        line-height: 1.42857143;
+                                        background-color: #fff;
+                                        border: 1px solid #ddd;
+                                        border-radius: 0;
+                                        display: inline-block;
+                                        padding: 3px;
+                                        margin-top: 4px
+                                    }
+                                    
+                                    .articleDescription {
+                                        /*padding-right: 40px;*/
+                                        width: 85%;
+                                        padding-left: 10px
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapMText {
+                                        font-family: 'Source Sans Pro', sans-serif, SAP-icons!important;
+                                        color: #333;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        word-wrap: normal;
+                                        /*max-width: 300px;*/
+                                        overflow: hidden
+                                    }
+                                    
+                                    .articleLogo {
+                                        margin-top: 11px
+                                    }
+                                    
+                                    .supplierInfo {
+                                        width: 100%
+                                    }
+                                    
+                                    .orderSummaryHeaderClass .sapMPopover {
+                                        width: 300px
+                                    }
+                                    
+                                    .packType,
+                                    .supplierDetails,
+                                    .supplierName {
+                                        width: 100%;
+                                        font-size: 13px
+                                    }
+                                    
+                                    .supplierName {
+                                        padding-left: 57px
+                                    }
+                                    
+                                    .packType {
+                                        padding-left: 15px
+                                    }
+                                    
+                                    .orderSummaryHeaderClass .sapMPageHeader {
+                                        background-color: #eb3442!important;
+                                        background-repeat: no-repeat!important;
+                                        background-size: 95px 30px!important;
+                                        padding-right: 20px!important;
+                                        color: #fff!important;
+                                        background-position-y: 10px;
+                                        background-position-x: 10px;
+                                        height: 50px
+                                    }
+                                    
+                                    .orderSummaryHeaderClass .sapMPageHeader span {
+                                        color: #fff;
+                                        font-size: 20px
+                                    }
+                                    
+                                    .brandColorCls {
+                                        color: #0071BC!important;
+                                        font-weight: 600!important
+                                    }
+                                    
+                                    .subCatogoryColorCls {
+                                        color: #333!important;
+                                        font-weight: 600!important
+                                    }
+                                    
+                                    .salesOrderNo,
+                                    .searchBrand {
+                                        width: 100%;
+                                        font-size: 14px;
+                                        white-space: nowrap
+                                    }
+                                    
+                                    .orderSummaryHeaderClass .sapMBarMiddle {
+                                        text-align: left;
+                                        margin-left: 160px
+                                    }
+                                    
+                                    .orderSummaryHeaderClass img {
+                                        margin-top: 10px
+                                    }
+                                    
+                                    .shippingInfo {
+                                        padding: 3px 7px
+                                    }
+                                    
+                                    .orderSummaryHeaderClass .sapMPanelContent {
+                                        padding: 0 16px
+                                    }
+                                    
+                                    .searchBrand {
+                                        margin: 30px 20px 0
+                                    }
+                                    
+                                    .salesOrderNo {
+                                        margin: 30px 33px 0 18px
+                                    }
+                                    
+                                    .searchText .sapMInputBaseInner {
+                                        height: 30px;
+                                        width: 200px;
+                                        border-radius: 3px
+                                    }
+                                    
+                                    .resetIcon {
+                                        margin-left: 10px;
+                                        margin-top: 10px
+                                    }
+                                    
+                                    .advancedSearch .sapMBar {
+                                        background: #eb3442!important;
+                                        height: 35px;
+                                        line-height: 35px
+                                    }
+                                    
+                                    .advancedSearch.sapMDialog {
+                                        padding: 35px 0;
+                                        border: none!important
+                                    }
+                                    
+                                    .advancedSearch .sapMDialogSection {
+                                        overflow: hidden !important;
+                                    }
+                                    
+                                    .advancedSearch .sapMBarMiddle {
+                                        text-align: left;
+                                        margin-left: 10px
+                                    }
+                                    
+                                    .advancedSearch .sapMDialog>header.sapMDialogTitle .sapMTitle {
+                                        color: #fff;
+                                        font-size: 18px
+                                    }
+                                    
+                                    .advancedSearch .sapMDialog>.sapMDialogSection {
+                                        background: #f2f2f2!important
+                                    }
+                                    
+                                    .advancedSearch #__dialog0-title-inner {
+                                        color: #fff!important
+                                    }
+                                    
+                                    .advancedSearch .sapMDialogFooter {
+                                        height: 38px
+                                    }
+                                    
+                                    .advancedSearch .sapMTB {
+                                        height: 38px;
+                                        padding-right: 10px
+                                    }
+                                    
+                                    .horizontalSeparator {
+                                        border-bottom: 1px solid;
+                                        border-style: solid;
+                                        border-width: 1px;
+                                        -webkit-border-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 1%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 100%) 0 0 100% 0/0 0 3px 0 stretch;
+                                        -moz-border-image: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 1%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 100%) 0 0 100% 0/0 0 3px 0 stretch;
+                                        -o-border-image: -o-linear-gradient(left, rgba(0, 0, 0, 1) 1%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 100%) 0 0 100% 0/0 0 3px 0 stretch;
+                                        border-image: linear-gradient(to top, #fff 50%, rgba(160, 158, 158, .42) 1%) 0 0 100% 0/0 0 3px 0 stretch;
+                                        width: 100%;
+                                        margin-left: 20px
+                                    }
+                                    
+                                    .searchRefresh .sapMBtnInner {
+                                        height: 25px;
+                                        padding: 0 15px;
+                                        border-radius: 6px
+                                    }
+                                    
+                                    .searchRefresh .sapMBtnContent {
+                                        line-height: 21px;
+                                        color: #fff;
+                                        font-size: 12px
+                                    }
+                                    
+                                    .searchRefresh .sapMBtnIcon {
+                                        line-height: 25px;
+                                        font-size: 12px;
+                                        color: #fff;
+                                        width: 55px
+                                    }
+                                    
+                                    .advancedSearch .sapMInputDivWrapper::before {
+                                        border: none!important
+                                    }
+                                    
+                                    .applySearch .sapMBtnInner {
+                                        height: 25px !important;
+                                        border: 1px solid #fff!important;
+                                        padding: 0 15px;
+                                        border-radius: 3px
+                                    }
+                                    
+                                    .applySearch .sapMBtnContent {
+                                        line-height: 23px;
+                                        color: #fff;
+                                        font-size: 12px
+                                    }
+                                    
+                                    .advancedSearch .sapMBtnDefault.sapMBtnActive:active {
+                                        backgobackgorund: green!important;
+                                        color: #fff
+                                    }
+                                    
+                                    .advanceSearchInfo {
+                                        margin-right: 25px
+                                    }
+                                    
+                                    .advanceSearchLayoutSplit {
+                                        overflow: hidden;
+                                        padding-bottom: 30px
+                                    }
+                                    
+                                    .searchRefresh {
+                                        margin-left: 50px
+                                    }
+                                    
+                                    .customerPoNo .sapMInputBaseInner {
+                                        margin-top: 20px;
+                                        border-radius: 5px;
+                                        height: 30px;
+                                    }
+                                    
+                                    .articleSearchFilter,
+                                    .customerPoNo.sapMInputBase {
+                                        height: 60px
+                                    }
+                                    
+                                    .advancedSearch .sapMTitle span {
+                                        color: #fff!important
+                                    }
+                                    
+                                    .firstChild {
+                                        float: left
+                                    }
+                                    
+                                    .articleImages {
+                                        margin-top: 10px;
+                                        margin-left: 20px;
+                                    }
+                                    
+                                    .articleImages img {
+                                        width: 42px;
+                                        height: 42px;
+                                        float: left;
+                                        margin-right: 3px;
+                                        line-height: 1.42857143;
+                                        background-color: #fff;
+                                        border: 1px solid #ddd;
+                                        border-radius: 0;
+                                        -o-object-fit: contain;
+                                        object-fit: contain;
+                                        display: -moz-inline-stack;
+                                        display: inline-block;
+                                        vertical-align: top;
+                                        padding: 3px
+                                    }
+                                    
+                                    .ordersShipping {
+                                        border: 1px solid #ccc;
+                                        background: #F2F2F2;
+                                        border-radius: 3px;
+                                        margin: 10px 0 0 10px
+                                    }
+                                    
+                                    .ordersShipping .sapuiVltCell:not(:last-child) {
+                                        padding-bottom: 0!important
+                                    }
+                                    
+                                    .ordersShipping .sapUiContentPadding {
+                                        padding: 3px 9px
+                                    }
+                                    
+                                    .ordersShipping .sapMTBSeparator {
+                                        margin-top: 8px
+                                    }
+                                    
+                                    .ordersShipping .brandInformation {
+                                        font-size: 13px;
+                                        color: #333;
+                                        font-weight: 600
+                                    }
+                                    
+                                    .ordersShipping .sapMText {
+                                        font-size: 12px;
+                                        color: #000
+                                    }
+                                    
+                                    .ordersShipping img {
+                                        width: 15px;
+                                        height: 15px;
+                                        vertical-align: top;
+                                        margin: 0px 5px 0 0
+                                    }
+                                    
+                                    .loading img,
+                                    .loading span {
+                                        vertical-align: middle
+                                    }
+                                    
+                                    .secondChild {
+                                        float: right
+                                    }
+                                    
+                                    .orderSearchSection .sapMSFR:not(.sapMSFNS) {
+                                        right: 20px
+                                    }
+                                    
+                                    .orderSearchSection .sapMSFF::before {
+                                        border: none!important
+                                    }
+                                    
+                                    .orderSearchSection .sapMSFF {
+                                        border-radius: 5px;
+                                        border: 1px solid #b3b3b3;
+                                        height: 30px;
+                                        padding-right: 0;
+                                        width: 220px;
+                                        margin-left: 3px
+                                    }
+                                    
+                                    .orderSearchSection .sapMSFI[type=search] {
+                                        height: 28px
+                                    }
+                                    
+                                    .orderSearchSection .sapMSFI::placeholder {
+                                        color: #b3b3b3;
+                                        height: 15px;
+                                        background: #fff;
+                                        opacity: 1
+                                    }
+                                    
+                                    .orderSearchSection .sapMSFB,
+                                    .orderSearchSection .sapMSFR {
+                                        font-size: 14px;
+                                        line-height: 28px;
+                                        color: #b3b3b3!important
+                                    }
+                                    
+                                    .orderSearchSection .sapMSFB:hover {
+                                        background: 0 0
+                                    }
+                                    
+                                    .sapMSFF>.sapMSFB:not(.sapMSFBF):active {
+                                        background-color: transparent;
+                                        color: #b3b3b3
+                                    }
+                                    
+                                    .orderSearchSection .sapUiSmallMarginTopBottom {
+                                        margin-top: 18px!important;
+                                        height: 30px
+                                    }
+                                    
+                                    .orderSearchSection .sapMBtnInner:hover>.sapMBtnHoverable {
+                                        background-image: none;
+                                        background-color: #fafafa;
+                                        border-color: #0071bc;
+                                        font-weight: initial;
+                                        outline: 0!important;
+                                        color: #0071bc
+                                    }
+                                    
+                                    .orderSearchSection .orderSegmentBtn {
+                                        margin: 21px 0 0 15px!important
+                                    }
+                                    
+                                    .orderSearchSection .sapMSegB .sapMSegBBtn {
+                                        height: 23px;
+                                        line-height: 24px;
+                                        font-size: 12px;
+                                        color: #333;
+                                        border-right: none;
+                                        background: linear-gradient(0deg, rgba(200, 200, 200, 1) .36%, rgba(222, 222, 222, 1) 21.38%, rgba(241, 241, 241, 1) 45.84%, rgba(251, 251, 251, 1) 71.48%, rgba(255, 255, 255, 1) 100%);
+                                        border-style: Solid;
+                                        border-color: none;
+                                        border-color: rgba(128, 128, 128, 1);
+                                        border-width: 1px;
+                                        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#C8C8C8', GradientType=0);
+                                        padding-left: 16px;
+                                        padding-right: 16px;
+                                        text-overflow: initial;
+                                        width: auto!important
+                                    }
+                                    
+                                    .orderSearchSection .sapMSegBBtn.sapMSegBBtnFocusable.sapMSegBBtnSel:hover,
+                                    .orderSearchSection .sapMSegBBtn.sapMSegBBtnSel {
+                                        color: #fff!important;
+                                        background: #333!important;
+                                        border-style: Solid;
+                                        border-color: #00000a;
+                                        outline: 0;
+                                        font-weight: 600;
+                                        border-right: none !important;
+                                    }
+                                    
+                                    .detailView.sapMBtn:focus>.sapMFocusable,
+                                    .filterDlgCls .sapMBtn:focus>.sapMFocusable,
+                                    .orderSearchSection .sapMSegBBtnFocusable.sapMSegBBtnSel:focus,
+                                    .orderSearchSection .sapMSegBBtnFocusable:focus {
+                                        outline: 0!important
+                                    }
+                                    
+                                    .orderSearchSection .orderSeperator {
+                                        height: 16px;
+                                        border-right: 1px dotted;
+                                        background: 0 0;
+                                        padding: 0 5px 0 9px!important;
+                                        margin-top: 29px!important;
+                                        margin-left: 0!important
+                                    }
+                                    
+                                    .orderSearchSection .sapMBtnInner {
+                                        height: 30px;
+                                        color: #0071bc;
+                                        padding: 0 9px 0 28px!important;
+                                        font-weight: initial;
+                                        border: 1px solid #0071bc!important
+                                    }
+                                    
+                                    .orderSearchSection .sapMBtnText>.sapMBtnIcon {
+                                        font-size: 14px;
+                                        line-height: 31px;
+                                        color: #0071bc
+                                    }
+                                    
+                                    .orderSearchSection .sapMBtnContent {
+                                        line-height: 29px
+                                    }
+                                    
+                                    .orderSearchSection .textBadge {
+                                        border: 1px solid #000;
+                                        background: #000;
+                                        color: #fff;
+                                        border-radius: 60px;
+                                        padding: 3px;
+                                        position: absolute;
+                                        z-index: 999;
+                                        margin: 16px 10px 10px 60px;
+                                        font-size: 9px;
+                                        line-height: 5px
+                                    }
+                                    
+                                    .footerBtn .sapMBtnInner span,
+                                    .footerDownloadBtn .sapMBtnInner span {
+                                        line-height: 25px
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableColHdrFixed,
+                                    .orderSummaryTblView .sapUiTableCtrlScrFixed {
+                                        float: left;
+                                        border: none;
+                                        border-collapse: collapse;
+                                        box-shadow: 5px 0 17px -1px #C8C8C8;
+                                        position: relative;
+                                        z-index: 9999
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableColHdr,
+                                    .ordersTblCls .sapUiTableColHdr {
+                                        width: 100%!important
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableColHdrFixed,
+                                    .ordersTblCls .sapUiTableCtrlScrFixed {
+                                        border-collapse: collapse;
+                                        box-shadow: 5px 0 17px -3px rgba(51, 51, 64, .36)!important;
+                                        position: relative;
+                                        z-index: 9999
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableColHdrCnt {
+                                        background-color: #e5e5e4
+                                    }
+                                    
+                                    .orderViewFooter {
+                                        height: 40px;
+                                        z-index: 999;
+                                    }
+                                    
+                                    .footerBtn.sapMBtn:hover {
+                                        color: #fff
+                                    }
+                                    
+                                    .footerBtn {
+                                        padding-right: 8px
+                                    }
+                                    
+                                    .footerDownloadBtn {
+                                        padding-right: 20px
+                                    }
+                                    
+                                    .orderViewFooter .footerDownloadBtn {
+                                        height: 42px;
+                                        padding-right: 20px
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableTr:nth-child(even) {
+                                        background: #f2f2f2
+                                    }
+                                    
+                                    .orderSummaryTblView label#__label1,
+                                    .orderSummaryTblView label#__label2 {
+                                        padding-left: 0
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableCol,
+                                    .orderSummaryTblView .sapUiTableTr>td {
+                                        border-right: none!important;
+                                        text-align: left!important;
+                                        border: none
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableTr>td {
+                                        padding-top: 6px!important
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableCol {
+                                        background: #E5E5E4;
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableCol:hover {
+                                        background-color: #e5e5e5
+                                    }
+                                    
+                                    #__xmlview1--detailTable-header-fixed-fixrow.sapUiTableCtrlFixed .sapUiTableCell {
+                                        padding-left: 0!important
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableCell .sapMLabel,
+                                    .sapUiTableColCell>.sapMLabel {
+                                        font-weight: 600!important;
+                                        width: auto!important;
+                                        color: #333;
+                                        padding-left: 0;
+                                        font-size: 14px
+                                    }
+                                    
+                                    .footerBtn .sapMBtnIcon::before,
+                                    .footerDownloadBtn .sapMBtnIcon::before {
+                                        font-size: 14px;
+                                        font-weight: 700
+                                    }
+                                    
+                                    .columnShadow {
+                                        width: 125px
+                                    }
+                                    
+                                    .containerInfo {
+                                        margin-left: 20px
+                                    }
+                                    
+                                    .footerBtn .sapMBtnInner {
+                                        color: #fff;
+                                        border: 1px solid #fff!important;
+                                        height: 27px;
+                                        border-radius: 4px;
+                                        padding: 0 15px;
+                                        font-size: 14px
+                                    }
+                                    
+                                    .footerBtn .sapMBtnIcon {
+                                        color: #fff
+                                    }
+                                    
+                                    .footerDownloadBtn .sapMBtnInner {
+                                        color: #fff;
+                                        border: 1px solid #fff!important;
+                                        height: 30px;
+                                        border-radius: 4px;
+                                        padding: 0;
+                                        font-size: 14px
+                                    }
+                                    
+                                    .footerDownloadBtn .sapMBtnIcon {
+                                        color: #fff
+                                    }
+                                    
+                                    .filterDlgCls .sapMBar {
+                                        background: #eb3442!important;
+                                        height: 40px;
+                                        line-height: 31px
+                                    }
+                                    
+                                    .filterDlgCls .sapMLabel {
+                                        color: #fff;
+                                        font-weight: 400;
+                                        line-height: 40px
+                                    }
+                                    
+                                    .filterDlgCls .sapMBtn .sapMBtnIcon {
+                                        color: #fff
+                                    }
+                                    
+                                    .filterDlgCls .sapMBarMiddle {
+                                        text-align: center;
+                                        padding-left: 9px
+                                    }
+                                    
+                                    .filterDlgCls .sapMBtnIcon {
+                                        font-size: 14px;
+                                        line-height: 35px
+                                    }
+                                    
+                                    .filterDlgCls.sapMDialog>footer {
+                                        height: 40px!important
+                                    }
+                                    
+                                    .filterDlgCls .sapMPage>.sapMPageHeader+section,
+                                    .sapMPage>.sapMPageHeader+.sapUiHiddenPlaceholder+section,
+                                    .sapMPage>.sapMPageSubHeader+section {
+                                        top: 54px;
+                                        height: 324px
+                                    }
+                                    
+                                    .filterDlgCls .sapMSF {
+                                        padding: 4px 10px
+                                    }
+                                    
+                                    .filterDlgCls .sapMDialog {
+                                        border: none!important;
+                                        border-radius: 5px
+                                    }
+                                    
+                                    .filterDlgCls.sapMDialog.sapMDialog-NoHeader {
+                                        padding-top: 0;
+                                        padding-bottom: 0;
+                                        border: none!important;
+                                        border-radius: 5px
+                                    }
+                                    
+                                    .filterDlgCls .sapMBtnText {
+                                        height: 16px
+                                    }
+                                    
+                                    .filterDlgCls .sapMBtnContent {
+                                        line-height: 17px
+                                    }
+                                    
+                                    .filterDlgCls .sapMDialog>footer .sapMBtn:last-child,
+                                    .filterDlgCls .sapMIBar.sapMTB .sapMBarChild {
+                                        margin-right: 13px
+                                    }
+                                    
+                                    .filterDlgCls .sapMBarChild {
+                                        padding-bottom: 10px
+                                    }
+                                    
+                                    .filterDlgCls .sapMBtn:hover>.sapMBtnHoverable {
+                                        background-image: none;
+                                        background-color: transparent;
+                                        height: 20px
+                                    }
+                                    
+                                    .filterDlgCls .sapMFooter-CTX .sapMBtn:hover>.sapMBtnHoverable:not(.sapMBtnActive) {
+                                        background-color: #363e43
+                                    }
+                                    
+                                    .filterDlgCls .sapMSLITitleOnly {
+                                        font-size: 14px;
+                                        line-height: 37px
+                                    }
+                                    
+                                    .filterDlgCls .sapMSLI:hover div {
+                                        color: #fff!important;
+                                        /*height: 35px;*/
+                                        /*line-height: 16px !important;*/
+                                    }
+                                    
+                                    .filterDlgCls .sapMCbBg {
+                                        left: 16px;
+                                        top: 16px;
+                                        height: 11px;
+                                        width: 11px;
+                                        line-height: 11px !important;
+                                        font-size: 10px;
+                                    }
+                                    
+                                    .filterDlgCls .sapMSLI {
+                                        height: 35px
+                                    }
+                                    
+                                    .filterDlgCls #filterDlg-backbutton:hover,
+                                    .filterDlgCls #filterDlg-detailresetbutton:hover,
+                                    .filterDlgCls #filterDlg-resetbutton:hover {
+                                        height: auto
+                                    }
+                                    
+                                    filterDlg-resetbutton-img .detailView .sapMBtnContent {
+                                        line-height: 27px;
+                                        color: #fff;
+                                        font-size: 16px;
+                                        font-weight: 400
+                                    }
+                                    
+                                    .status {
+                                        color: orange!important;
+                                        padding: 0 2px 0 5px;
+                                        line-height: 26px
+                                    }
+                                    
+                                    .createdDate {
+                                        color: #fff!important;
+                                        font-size: 14px;
+                                        line-height: 25px;
+                                        padding-left: 6px;
+                                    }
+                                    
+                                    .orderHeader {
+                                        background: #333!important;
+                                        height: 30px!important;
+                                        padding-right: 12px
+                                    }
+                                    
+                                    .statusSeparator {
+                                        background: #fff!important;
+                                        height: 15px;
+                                        margin: 2px 0 0 6px
+                                    }
+                                    
+                                    .statusCreated {
+                                        padding-top: 0px !important;
+                                    }
+                                    
+                                    .statusCreated .sapMLabel {
+                                        color: #fff
+                                    }
+                                    
+                                    div#__xmlview1--materialId1-inner,
+                                    div#__xmlview1--oldMaterialId-inner {
+                                        padding-left: 0!important
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableCtrlScrFixed {
+                                        border: none
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapMPageHeader {
+                                        background-color: #eb3442!important;
+                                        background-image: url("../images/logo.png") !important;
+                                        background-repeat: no-repeat!important;
+                                        background-size: 85px 32px!important;
+                                        padding-right: 20px!important;
+                                        color: #fff!important;
+                                        background-position-y: 7px;
+                                        background-position-x: 18px;
+                                        height: 48px;
+                                        text-shadow: 0 0 .125rem #eb3442;
+                                        box-shadow: inset 0 -.0625rem #eb3442
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapMPageHeader .sapMBarMiddle {
+                                        text-align: left;
+                                        margin-left: 110px;
+                                        padding-top: 5px;
+                                        color: #fff
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapMIBar-CTX .sapMTitle {
+                                        color: #fff;
+                                        text-shadow: none;
+                                        border-left: 1px dotted #333;
+                                        padding-left: 10px
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapMTitleStyleAuto {
+                                        font-size: 16px;
+                                        line-height: 22px
+                                    }
+                                    
+                                    .ordSummaryHeaderClass span#__page0-title-inner {
+                                        border-left: 1px solid #737272;
+                                        padding-left: 12px
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableCol:active>div>label,
+                                    .sapUiTableCol:active>div>span {
+                                        color: #333
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableHSb,
+                                    .ordersTblCls .sapUiTableHSb {
+                                        height: 7px!important
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableCol:active {
+                                        background-color: #e5e5e4
+                                    }
+                                    
+                                    .orderNumber.sapMLabel,
+                                    .orderText.sapMText {
+                                        color: #fff!important;
+                                        font-size: 14px;
+                                        padding-left: 5px;
+                                        /* padding-top: 6px*/
+                                    }
+                                    
+                                    .sapMShellBrandingBar {
+                                        z-index: 0
+                                    }
+                                    
+                                    .detailView .sapMBtnActive {
+                                        background: 0 0!important
+                                    }
+                                    
+                                    .detailView .sapMIBar-CTX .sapMBtn:hover>.sapMBtnHoverable:not(.sapMBtnActive) {
+                                        background-color: transparent!important
+                                    }
+                                    
+                                    .detailView.sapMBtn:hover>.sapMBtnHoverable {
+                                        background-image: none;
+                                        background-color: transparent;
+                                        border-color: #ababab
+                                    }
+                                    
+                                    .detailView.sapMBtn {
+                                        height: 10px;
+                                        padding: 5px;
+                                        right: 15px
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapMBarRight {
+                                        height: 40px
+                                    }
+                                    
+                                    .ordSummaryHeaderClass {
+                                        background: #fff!important
+                                    }
+                                    
+                                    .treeTextCls {
+                                        padding-left: 20px
+                                    }
+                                    
+                                    .orderSummaryTblView .sapUiTableColCell {
+                                        padding: 1px .5rem;
+                                        text-align: left!important
+                                    }
+                                    
+                                    .ordSummaryHeaderClass.sapMPage>section {
+                                        background: #f2f2f2!important;
+                                        overflow: hidden!important
+                                    }
+                                    
+                                    .orderSegmentBtn #__button4 {
+                                        border-top-right-radius: 5px;
+                                        border-bottom-right-radius: 5px;
+                                        border-left: 0
+                                    }
+                                    
+                                    .orderSegmentBtn #__button2,
+                                    .orderSegmentBtn #__button3 {
+                                        border-left: 0
+                                    }
+                                    
+                                    .orderSegmentBtn #__button3 {
+                                        border-top-right-radius: 4px !important;
+                                        border-bottom-right-radius: 4px !important;
+                                    }
+                                    
+                                    .orderSegmentBtn .sapMSegBBtn:first-child {
+                                        border-top-left-radius: 5px;
+                                        border-bottom-left-radius: 5px;
+                                        border-right: none !important;
+                                    }
+                                    
+                                    .ordSummaryHeaderClass .sapUiTableColHdrCnt {
+                                        height: 35px
+                                    }
+                                    
+                                    .ordSummaryFilter .sapUiIcon::before {
+                                        font-size: 14px;
+                                        font-weight: 700
+                                    }
+                                    
+                                    .ordSummaryFilter .sapMBtnIcon {
+                                        width: 30px
+                                    }
+                                    
+                                    .filterDlgCls .sapMLIBHoverable:hover {
+                                        background: #0AACF1!important;
+                                        color: #fff!important
+                                    }
+                                    
+                                    .filterDlgCls .sapMLIBHoverable .sapMLIBContent:hover {
+                                        color: #fff!important
+                                    }
+                                    
+                                    .filterDlgCls .sapMFooter-CTX .sapMBtnBase {
+                                        height: 28px;
+                                        border: 1px solid #fff;
+                                        border-radius: 4px
+                                    }
+                                    
+                                    .FillterApply {
+                                        background-color: #0071bc!important;
+                                        color: #fff!important;
+                                        text-shadow: none;
+                                        background: -webkit-linear-gradient(top, #0071bc 0, #0071bc 100%)!important
+                                    }
+                                    
+                                    .filterDlgCls .sapMLIBCounter {
+                                        font-size: .875rem;
+                                        color: #fff;
+                                        padding: 7px 9px;
+                                        height: 12px;
+                                        width: 7px;
+                                        line-height: 11px;
+                                        background-color: #007cc0;
+                                        border-radius: 40px
+                                    }
+                                    
+                                    .FillterApply .sapUiIcon::before {
+                                        font-size: 13px;
+                                        font-weight: 700;
+                                        color: #fff
+                                    }
+                                    
+                                    .filterIcon,
+                                    .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>a,
+                                    .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span,
+                                    .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td .sapMText,
+                                    .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span,
+                                    .pagingText {
+                                        color: #fff!important
+                                    }
+                                    
+                                    .sap-desktop::-webkit-scrollbar {
+                                        background-color: #f7f7f7
+                                    }
+                                    
+                                    #__xmlview1--detailTable-vsb-sb {
+                                        width: 25px!important;
+                                        margin-left: 0!important
+                                    }
+                                    
+                                    .sap-desktop::-webkit-scrollbar-thumb {
+                                        border-radius: 3px;
+                                        background-color: #848484!important
+                                    }
+                                    
+                                    #__xmlview1--detailTable-vsb-sb::-webkit-scrollbar-thumb {
+                                        background-color: #848484!important
+                                    }
+                                    
+                                    #__xmlview1--detailTable-hsb-sb::-webkit-scrollbar-thumb {
+                                        background-color: #848484!important
+                                    }
+                                    
+                                    #__xmlview1--detailTable-hsb-sb {
+                                        height: 22px !important;
+                                    }
+                                    
+                                    #__xmlview1--ordersSectionTable-hsb-sb {
+                                        height: 22px !important;
+                                    }
+                                    
+                                    #__xmlview1--ordersSectionTable-vsb-sb {
+                                        width: 24px!important;
+                                        margin-left: 0!important
+                                    }
+                                    
+                                    #__xmlview1--ordersSectionTable-vsb-sb::-webkit-scrollbar-thumb {
+                                        background-color: #848484!important
+                                    }
+                                    
+                                    #__xmlview1--ordersSectionTable-hsb-sb::-webkit-scrollbar-thumb {
+                                        background-color: #848484!important
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableColHdrCnt {
+                                        height: 30px!important;
+                                        background: grey
+                                    }
+                                    
+                                    .filterDlgCls .sapMSLI:hover,
+                                    .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td,
+                                    .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td {
+                                        background: #0AACF1!important
+                                    }
+                                    
+                                    .ordersTblCls.sapUiTableVScr .sapUiTableCtrlScr {
+                                        border-right: none
+                                    }
+                                    
+                                    .pagingText {
+                                        font-size: 14px!important;
+                                        font-weight: 700!important
+                                    }
+                                    /*#materialOrderInfo {*/
+                                    /*    height: auto!important*/
+                                    /*}*/
+                                    
+                                    .filterDlgCls .sapUiTableColHdrCnt {
+                                        min-height: 0!important;
+                                        height: 0!important
+                                    }
+                                    
+                                    #__button5-inner,
+                                    #__button6-inner {
+                                        height: 19px
+                                    }
+                                    
+                                    .orderSummaryTblView .sapMLnk:hover:not(.sapMLnkDsbl) {
+                                        text-decoration: none!important
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableCol {
+                                        padding-top: 11px !important;
+                                    }
+                                    
+                                    .filterDlgCls .sapUiTriCbInner.sapUiTriCbCheck,
+                                    .sapUiTriCbInner.sapUiTriCbMix {
+                                        outline: none !important;
+                                    }
+                                    
+                                    .filterDlgCls .sapUiTriCb {
+                                        outline: none !important;
+                                    }
+                                    
+                                    .filterDlgCls .sapUiTableTreeIcon {
+                                        outline: none !important;
+                                    }
+                                    
+                                    .filterDlgCls .sapUiTableTr > td.sapUiTableTdFirst > .sapUiTableCell {
+                                        outline: none !important;
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableColHdrCnt {
+                                        min-height: 33px;
+                                    }
+                                    
+                                    table#__xmlview1--ordersSectionTable-table-fixed .sapMText {
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        word-wrap: normal;
+                                        max-width: 185px !important;
+                                        overflow: hidden;
+                                    }
+                                    
+                                    @media (min-width:1280px) {
+                                        .sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+                                            width: 100%!important;
+                                            margin-left: 0!important;
+                                            left: 0!important;
+                                            background-color: rgba(50, 192, 198, .3)
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-device-width:1024px) {
+                                        /*#__xmlview2--materialOrderInfo {*/
+                                        /*    height: 32px !important;*/
+                                        /*}*/
+                                        .ordersTblCls .sapUiTableColRowHdr,
+                                        .sapUiTableCol {
+                                            padding-bottom: 0 !important;
+                                        }
+                                        #__xmlview2--navBack-inner {
+                                            width: 70px !important;
+                                        }
+                                        #__xmlview1--searchBtnHeader1-inner {
+                                            border: none !important;
+                                            background: #f2f2f2 !important;
+                                            margin: 1px 0px 0px 0px !important;
+                                            padding: 2px 2px 0px 0px !important;
+                                            border: 1px solid #bfbfbf !important;
+                                            border-radius: 4px;
+                                            min-width: 32px !important;
+                                        }
+                                        #__xmlview1--searchBtnHeader1-img {
+                                            line-height: 1.8rem;
+                                            width: 1.000rem;
+                                            font-size: 1.3rem;
+                                            max-height: 1.5rem;
+                                            margin-left: 2px;
+                                            margin-right: 5px;
+                                            color: #333 !important;
+                                        }
+                                        .ordersShipping img {
+                                            width: 15px;
+                                            height: 15px;
+                                            vertical-align: top;
+                                            margin: 3px 5px 0 0;
+                                        }
+                                        .secondChild {
+                                            float: right
+                                        }
+                                        .articleImages {
+                                            margin-left: 10px;
+                                        }
+                                        .orderSearchSection .orderSegmentBtn {
+                                            margin: 21px 0 0 2px!important
+                                        }
+                                        .orderSearchSection .sapMSFF {
+                                            border-radius: 3px;
+                                            border: 1px solid #b3b3b3;
+                                            height: 30px;
+                                            padding-right: 0;
+                                            width: 107px;
+                                            margin-left: 0
+                                        }
+                                        .orderSearchSection .sapMSegB .sapMSegBBtn {
+                                            height: 23px;
+                                            line-height: 24px;
+                                            font-size: 12px;
+                                            color: #333;
+                                            border-right: 1px solid rgba(128, 128, 128, 1);
+                                            padding-left: 6px;
+                                            padding-right: 8px;
+                                            background: linear-gradient(0deg, rgba(200, 200, 200, 1) .36%, rgba(222, 222, 222, 1) 21.38%, rgba(241, 241, 241, 1) 45.84%, rgba(251, 251, 251, 1) 71.48%, rgba(255, 255, 255, 1) 100%);
+                                            border-style: Solid;
+                                            border-color: none;
+                                            border-color: rgba(128, 128, 128, 1);
+                                            border-width: 1px;
+                                            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#C8C8C8', GradientType=0)
+                                        }
+                                        .orderSearchSection .orderSeperator {
+                                            height: 17px;
+                                            border-right: 1px dotted;
+                                            background: 0 0;
+                                            padding: 0 1px 0 3px!important;
+                                            margin: 29px 8px 0 2px!important
+                                        }
+                                        /*.articleImages {*/
+                                        /*    margin-top: 8px;*/
+                                        /*    margin-left: 6px*/
+                                        /*}*/
+                                        .ordSummaryFilter .sapMBtnIcon {
+                                            width: 34px
+                                        }
+                                        .orderSearchSection .sapMBtnText>.sapMBtnIcon {
+                                            line-height: 31px;
+                                            color: #0071bc
+                                        }
+                                        .ordersShipping .sapUiContentPadding {
+                                            padding: 3px 5px
+                                        }
+                                        .ordSummaryFilter .sapUiSmallMarginEnd {
+                                            margin-right: 10px!important
+                                        }
+                                        .otherInfoLayout .customerInfoItem {
+                                            line-height: 20px;
+                                            padding-right: 25px
+                                        }
+                                        .filterDlgCls .sapMSLITitleOnly:hover {
+                                            color: #fff!important
+                                        }
+                                        .ShippingInfoValue,
+                                        .customerInfoValue {
+                                            padding-right: 0
+                                        }
+                                        .ordersShipping {
+                                            margin: 10px 0 0 3px
+                                        }
+                                        .orderSummaryTblView .sapUiTableVSb,
+                                        .ordersTblCls .sapUiTableVSb {
+                                            width: 8px
+                                        }
+                                        #__xmlview1--detailTable-vsb-sb {
+                                            width: 7px!important;
+                                            /*margin-left: 0!important;*/
+                                        }
+                                        #__xmlview1--ordersSectionTable-vsb-sb {
+                                            width: 7px!important;
+                                        }
+                                        .pageClass {
+                                            margin-top: 0px !important;
+                                            line-height: 25px !important;
+                                            height: 30px !important;
+                                        }
+                                        .ordSummaryHeaderClass .sapMPageHeader .sapMBarMiddle {
+                                            padding-top: 0px;
+                                        }
+                                        /*.ordSummaryHeaderClass .sapMText {
+                                            max-width: 150px;
+                                        }*/
+                                        .paginatorBtnCls .sapMBtnIcon {
+                                            line-height: 50px !important;
+                                        }
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td {
+                                            background: transparent !important;
+                                        }
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>a,
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td .sapMText,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span {
+                                            color: #333!important
+                                        }
+                                        .customerPoNo .sapMInputBaseInner {
+                                            width: 200px !important;
+                                        }
+                                        .tableView {
+                                            height: 25px;
+                                            margin-right: 10px;
+                                        }
+                                        .tableView .sapMBtnInner {
+                                            line-height: 23px;
+                                            font-size: 13px;
+                                            text-shadow: none !important;
+                                            font-weight: 600;
+                                        }
+                                        .portraitMode {
+                                            margin: 300px 0px 0px 268px !important;
+                                            padding: 106px 0px !important;
+                                            font-size: 20px;
+                                        }
+                                        .radioBtnCls .sapMRbB .sapMRbBOut.sapMRbB .sapMRbBOut {
+                                            height: 8px;
+                                            width: 8px;
+                                            margin-top: 16px !important;
+                                        }
+                                        .radioBtnCls .sapMRbBLabel {
+                                            height: 32px;
+                                            padding-left: 35px !important;
+                                        }
+                                        .radioBtnCls .sapMRbB .sapMRbBInn {
+                                            height: 6px;
+                                            width: 6px;
+                                            margin: 0px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-device-width: 736px) {
+                                        .multiInput {
+                                            min-width: 188px !important;
+                                            max-width: 188px !important;
+                                        }
+                                        .portraitMode {
+                                            margin: 125px 0px 0px 70px !important;
+                                            padding: 106px 0px !important;
+                                            font-size: 20px;
+                                        }
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td {
+                                            background: transparent !important;
+                                        }
+                                        .packType,
+                                        .supplierDetails,
+                                        .supplierName {
+                                            width: 100%;
+                                            font-size: 10px;
+                                        }
+                                        #__xmlview2--navBack-inner {
+                                            width: 70px !important;
+                                        }
+                                        /*#__xmlview2--materialOrderInfo {*/
+                                        /*    height: 32px !important;*/
+                                        /*}*/
+                                        .footerDownloadBtn .sapMBtnInner .sapMBtnText {
+                                            padding-left: 20px !important;
+                                        }
+                                        .ordersTblCls .sapUiTableColHdrCnt {
+                                            min-height: 10px;
+                                        }
+                                        .articleImages {
+                                            margin-left: 10px;
+                                            margin-top: 5px
+                                        }
+                                        /*#__xmlview1--navBack-inner {
+                                            padding-right: 20px;
+                                        }*/
+                                        #__xmlview1--navBack-img {
+                                            line-height: 20px !important;
+                                        }
+                                        .ordSummaryHeaderClass .sapMPanelContent {
+                                            padding: 0;
+                                            margin-top: 0 !important;
+                                        }
+                                        .customerInfoLayout,
+                                        .otherInfoLayout {
+                                            margin: 10px 0 10px 5px;
+                                        }
+                                        .customerInfoLayout {
+                                            padding: 4px 0px 26px 15px;
+                                        }
+                                        .customerInfoItem,
+                                        .otherInfoLayout .customerInfoItem {
+                                            padding-right: 10px;
+                                            line-height: 15px;
+                                        }
+                                        .infoLayout .sapMText {
+                                            max-width: 70px;
+                                        }
+                                        .customerInfo {
+                                            padding-right: 10px;
+                                            line-height: 15px;
+                                        }
+                                        .otherInfoLayout .customerInfoItem {
+                                            padding-right: 10px;
+                                        }
+                                        .actualDiscount .customerInfoItem {
+                                            padding-right: 10px;
+                                            line-height: 15px;
+                                        }
+                                        .productInfoLayout {
+                                            padding: 8px 0px 8px 7px;
+                                            margin-top: 10px;
+                                            margin-left: 52px;
+                                        }
+                                        .otherInfoLayout {
+                                            padding: 4px 0px 4px 15px;
+                                        }
+                                        .ordSummaryHeaderClass .sapMPageHeader {
+                                            height: 30px !important;
+                                            background-position-y: 3px;
+                                            background-size: 60px 24px!important;
+                                        }
+                                        .ordSummaryHeaderClass.sapMPage>section {
+                                            top: 30px;
+                                        }
+                                        .ordSummaryFilter .sapMBtnIcon {
+                                            width: 40px;
+                                            line-height: 6px;
+                                            color: #fff;
+                                        }
+                                        .orderSummaryTblView .sapMLnk {
+                                            font-size: 12px;
+                                        }
+                                        .orderSummaryTblView .sapMText {
+                                            font-size: 12px;
+                                        }
+                                        .orderSummaryTblView .sapUiTableCell .sapMLabel,
+                                        .sapUiTableColCell>.sapMLabel {
+                                            font-size: 12px;
+                                        }
+                                        .ordersShipping {
+                                            margin: 5px 0 5px 3px;
+                                        }
+                                        .ordSummaryHeaderClass .sapMTitleStyleAuto {
+                                            font-size: 14px;
+                                            line-height: 20px;
+                                            margin-bottom: 15px;
+                                        }
+                                        #__xmlview1--detailTable-vsb-sb {
+                                            width: 7px!important;
+                                        }
+                                        #__xmlview1--ordersSectionTable-vsb-sb {
+                                            width: 7px!important;
+                                        }
+                                        .orderSearchSection .sapUiSmallMarginTopBottom {
+                                            margin-top: 0px!important;
+                                            margin-bottom: 0px !important;
+                                            height: 5px;
+                                        }
+                                        .orderSearchSection .sapMSFF {
+                                            height: 23px;
+                                        }
+                                        .orderSearchSection .sapMSFI[type=search] {
+                                            height: 21px;
+                                        }
+                                        .orderSearchSection .sapMSFB,
+                                        .orderSearchSection .sapMSFR {
+                                            line-height: 21px;
+                                            ;
+                                        }
+                                        .orderSearchSection .orderSeperator {
+                                            display: none;
+                                        }
+                                        .ordSummaryFilter {
+                                            padding-top: 1px;
+                                        }
+                                        .orderSearchSection .sapMBtnInner {
+                                            height: 20px;
+                                            padding: 2px 9px 0 25px!important;
+                                            border: none !important;
+                                            margin-top: 2px;
+                                        }
+                                        .orderSearchSection .sapMBtnText>.sapMBtnIcon {
+                                            line-height: 20px;
+                                            color: #fff;
+                                        }
+                                        .orderSearchSection .sapMBtnContent {
+                                            line-height: 17px;
+                                            color: #fff;
+                                            font-size: 12px;
+                                        }
+                                        .ordSummaryHeaderClass .sapMBarRight {
+                                            height: 30px;
+                                        }
+                                        .ordSummaryFilter.sapMBtn {
+                                            height: 35px;
+                                            margin-right: 6px !important;
+                                        }
+                                        .orderSummaryReset.sapMBtn {
+                                            height: 31px;
+                                            width: 30px !important;
+                                        }
+                                        .ordSummaryHeaderClass .sapMBarPH {
+                                            line-height: 29px !important;
+                                        }
+                                        .orderSummaryReset .sapMBtnInner {
+                                            padding: 1px 9px 0 0px!important;
+                                            border: none !important;
+                                        }
+                                        .orderSummaryReset .sapMBtnIcon {
+                                            width: 0px;
+                                            color: #fff;
+                                            line-height: 12px !important;
+                                        }
+                                        .orderSummaryReset .sapUiIcon::before {
+                                            font-size: 16px;
+                                            font-weight: 600;
+                                        }
+                                        .advancedSearch .sapMTB {
+                                            height: 38px;
+                                            background-color: #363e43;
+                                        }
+                                        .ordSummaryFilter .sapUiIcon::before {
+                                            font-size: 15px;
+                                        }
+                                        .sapMPageFooter {
+                                            height: 30px;
+                                        }
+                                        #__xmlview1--footerBar .sapMBarPH {
+                                            line-height: 28px;
+                                        }
+                                        #__xmlview1--footerBar .sapMBarRight {
+                                            line-height: 25px;
+                                        }
+                                        #__xmlview1--footerBar .sapMBtnIcon {
+                                            line-height: 31px;
+                                            font-size: 13px;
+                                            color: #fff;
+                                        }
+                                        .ordSummaryFilter .sapMBtnInner {
+                                            padding: 2px 9px 0 2px!important;
+                                        }
+                                        .filterDlgCls .sapMPage>.sapMPageHeader+section,
+                                        .sapMPage>.sapMPageHeader+.sapUiHiddenPlaceholder+section,
+                                        .sapMPage>.sapMPageSubHeader+section {
+                                            top: 40px;
+                                        }
+                                        .filterDlgCls .sapMSLI {
+                                            height: 25px
+                                        }
+                                        #__xmlview1--fourthView-cont {
+                                            overflow: hidden scroll !important;
+                                        }
+                                        .statusCreated {
+                                            padding-top: 0px !important;
+                                            line-height: 16px !important;
+                                            padding-right: 30px;
+                                        }
+                                        .orderNumber.sapMLabel,
+                                        .orderText.sapMText {
+                                            padding-top: 0px;
+                                            font-size: 12px;
+                                            line-height: 30px;
+                                        }
+                                        .customerInfoItem .sapMText,
+                                        .customerInfoValue .sapMText {
+                                            font-size: 8px
+                                        }
+                                        .ShippingInfoValue .sapMText,
+                                        .customerInfo .sapMText {
+                                            font-size: 8px;
+                                            line-height: 15px;
+                                        }
+                                        .customerInfoTitle.sapMTitleStyleH3 {
+                                            font-size: 10px;
+                                        }
+                                        .orderSummaryTblView .sapUiTableTr>td {
+                                            padding-top: 0px!important
+                                        }
+                                        #__xmlview1--footerBar-BarPH.sapMBarPH {
+                                            line-height: 25px !important;
+                                        }
+                                        .ordSummaryHeaderClass .sapMPageHeader .sapMBarMiddle {
+                                            margin-left: 85px;
+                                            padding-top: 0px;
+                                        }
+                                        .orderSummaryTblView .sapUiTableCol {
+                                            padding-top: 5px !important;
+                                        }
+                                        .fontMedium,
+                                        .fontTiny {
+                                            font-size: 8px!important;
+                                        }
+                                        .totalWeight .customerInfoItem {
+                                            line-height: 15px;
+                                        }
+                                        .totalWeight {
+                                            padding-top: 10px
+                                        }
+                                        .customerInfoTitle {
+                                            line-height: 5px;
+                                            padding-bottom: 5px;
+                                        }
+                                        .ordersTblCls .sapUiTableCol .sapUiTableColCell span {
+                                            font-size: 8px!important;
+                                        }
+                                        .pageClass {
+                                            margin-top: 0px !important;
+                                            line-height: 25px !important;
+                                            height: 30px !important;
+                                        }
+                                        .orderSummaryReset .sapMBtnInner.sapMBtnActive {
+                                            background: transparent !important;
+                                        }
+                                        .orderViewFooter .footerDownloadBtn {
+                                            height: 30px;
+                                            padding-top: 2px;
+                                        }
+                                        .footerDownloadBtn .sapMBtnInner {
+                                            height: 23px;
+                                        }
+                                        .ordSummaryFilter .sapMBtnInner.sapMBtnActive {
+                                            background: transparent !important;
+                                        }
+                                        .ShippingInfoValue,
+                                        .customerInfoValue {
+                                            line-height: 15px;
+                                        }
+                                        .portraitMode {
+                                            margin-left: 20%;
+                                            margin-top: 50%;
+                                            font-size: 20px;
+                                            font-weight: 500;
+                                        }
+                                        .paginatorBtnCls {
+                                            height: 30px !important;
+                                        }
+                                        .orderHeader {
+                                            background: #333!important;
+                                            height: 19px!important;
+                                            padding-right: 12px
+                                        }
+                                        .status {
+                                            font-size: 12px;
+                                            line-height: 20px;
+                                        }
+                                        .createdDate {
+                                            color: #fff!important;
+                                            font-size: 12px;
+                                            line-height: 17px;
+                                            padding-left: 6px;
+                                        }
+                                        .footerDownloadBtn .sapMBtnInner span {
+                                            line-height: 18px !important;
+                                            color: #fff !important;
+                                            padding-right: 0px !important;
+                                        }
+                                        .footerDownloadBtn.sapMBtn {
+                                            height: 20px;
+                                            padding-top: 4px;
+                                            padding-bottom: 5px;
+                                        }
+                                        .expandIcon .sapMIBar.sapMTB .sapMBarChild {
+                                            margin-right: 0 !important;
+                                        }
+                                        .expandIcon .sapMIBar .sapMBarChild:first-child {
+                                            margin-left: 0 !important;
+                                        }
+                                        .expandIcon > div > span {
+                                            font-size: 10px !important;
+                                            margin-top: 2px !important;
+                                            color: #fff !important;
+                                            line-height: 12px !important;
+                                        }
+                                        .expandIcon > div {
+                                            background: #333333 !important;
+                                            border: none !important;
+                                            height: 16px;
+                                        }
+                                        #__xmlview1--orderNoHbox .sapMIBar.sapMTB .sapMBarChild {
+                                            margin-right: 0;
+                                        }
+                                        #__xmlview1--orderNoHbox .sapMIBar .sapMBarChild {
+                                            margin-left: 0;
+                                        }
+                                        /*.ordSummaryHeaderClass .sapMText {
+                                            max-width: 100px;
+                                        }*/
+                                        .paginatorBtnCls .sapMBtnIcon {
+                                            line-height: 18px !important;
+                                        }
+                                        label#__xmlview1--pagingText {
+                                            font-size: 13px !important;
+                                        }
+                                        .createdDate.sapMText {
+                                            max-width: 120px !important;
+                                        }
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>a,
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td .sapMText,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span {
+                                            color: #333!important
+                                        }
+                                        .customerPoNo .sapMInputBaseInner {
+                                            width: auto !important;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-device-width: 667px) {
+                                        .multiInput {
+                                            min-width: 188px !important;
+                                            max-width: 188px !important;
+                                        }
+                                        .portraitMode {
+                                            margin: 125px 0px 0px 70px !important;
+                                            padding: 106px 0px !important;
+                                            font-size: 20px;
+                                        }
+                                        .customerPoNo .sapMInputBaseInner {
+                                            width: auto !important;
+                                        }
+                                        /*#__xmlview2--materialOrderInfo {*/
+                                        /*    height: 32px !important;*/
+                                        /*}*/
+                                        .packType,
+                                        .supplierDetails,
+                                        .supplierName {
+                                            width: 100%;
+                                            font-size: 10px;
+                                        }
+                                        .createdDate.sapMText {
+                                            max-width: 120px !important;
+                                        }
+                                        #__xmlview2--navBack-inner {
+                                            width: 70px !important;
+                                        }
+                                        label#__xmlview1--pagingText {
+                                            font-size: 13px !important;
+                                        }
+                                        .footerDownloadBtn .sapMBtnInner .sapMBtnText {
+                                            padding-left: 20px !important;
+                                        }
+                                        .ordersTblCls .sapUiTableColHdrCnt {
+                                            min-height: 10px;
+                                        }
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td {
+                                            background: transparent !important;
+                                        }
+                                        .paginatorBtnCls .sapMBtnIcon {
+                                            line-height: 18px !important;
+                                        }
+                                        /*.ordSummaryHeaderClass .sapMText {
+                                            max-width: 100px;
+                                        }*/
+                                        /*#__xmlview1--navBack-inner {
+                                            padding-right: 20px !important;
+                                        }*/
+                                        #__xmlview1--navBack-img {
+                                            line-height: 20px !important;
+                                        }
+                                        .ordSummaryHeaderClass .sapMPanelContent {
+                                            padding: 0;
+                                            margin-top: 0 !important;
+                                        }
+                                        .status {
+                                            font-size: 12px;
+                                            line-height: 20px;
+                                        }
+                                        .customerInfoLayout,
+                                        .otherInfoLayout {
+                                            margin: 6px 0 10px 5px;
+                                        }
+                                        .ShippingInfoValue,
+                                        .customerInfoValue {
+                                            line-height: 15px;
+                                        }
+                                        .customerInfoLayout {
+                                            padding: 4px 0px 26px 15px;
+                                        }
+                                        .customerInfoItem,
+                                        .otherInfoLayout .customerInfoItem {
+                                            padding-right: 10px;
+                                            line-height: 15px;
+                                        }
+                                        .infoLayout .sapMText {
+                                            max-width: 70px;
+                                        }
+                                        .customerInfo {
+                                            padding-right: 10px;
+                                            line-height: 15px;
+                                        }
+                                        .otherInfoLayout .customerInfoItem {
+                                            padding-right: 10px;
+                                        }
+                                        .actualDiscount .customerInfoItem {
+                                            padding-right: 10px;
+                                            line-height: 15px;
+                                        }
+                                        .productInfoLayout {
+                                            padding: 8px 0px 8px 7px;
+                                            margin-top: 10px;
+                                            margin-left: 52px;
+                                        }
+                                        .otherInfoLayout {
+                                            padding: 4px 0px 4px 15px;
+                                        }
+                                        .ordSummaryHeaderClass .sapMPageHeader {
+                                            height: 30px !important;
+                                            background-position-y: 3px;
+                                            background-size: 60px 24px!important;
+                                        }
+                                        .ordSummaryHeaderClass.sapMPage>section {
+                                            top: 30px;
+                                        }
+                                        .ordSummaryFilter .sapMBtnIcon {
+                                            width: 40px;
+                                            line-height: 6px;
+                                            color: #fff;
+                                        }
+                                        .orderSummaryTblView .sapMLnk {
+                                            font-size: 12px;
+                                        }
+                                        .orderSummaryTblView .sapMText {
+                                            font-size: 12px;
+                                        }
+                                        .orderSummaryTblView .sapUiTableCell .sapMLabel,
+                                        .sapUiTableColCell>.sapMLabel {
+                                            font-size: 12px;
+                                        }
+                                        .ordersShipping {
+                                            margin: 5px 0 5px 3px;
+                                        }
+                                        .ordSummaryHeaderClass .sapMTitleStyleAuto {
+                                            font-size: 14px;
+                                            line-height: 20px;
+                                            margin-bottom: 15px;
+                                        }
+                                        #__xmlview1--detailTable-vsb-sb {
+                                            width: 7px!important;
+                                            /*margin-left: 0!important;*/
+                                        }
+                                        #__xmlview1--ordersSectionTable-vsb-sb {
+                                            width: 7px!important;
+                                        }
+                                        .orderSearchSection .sapUiSmallMarginTopBottom {
+                                            margin-top: 0px!important;
+                                            margin-bottom: 0px !important;
+                                            height: 5px;
+                                        }
+                                        .orderSearchSection .sapMSFF {
+                                            height: 23px;
+                                        }
+                                        .orderSearchSection .sapMSFI[type=search] {
+                                            height: 21px;
+                                        }
+                                        .orderSearchSection .sapMSFB,
+                                        .orderSearchSection .sapMSFR {
+                                            line-height: 21px;
+                                            ;
+                                        }
+                                        .orderSearchSection .orderSeperator {
+                                            display: none;
+                                        }
+                                        .ordSummaryFilter {
+                                            padding-top: 1px;
+                                        }
+                                        .orderSearchSection .sapMBtnInner {
+                                            height: 20px;
+                                            /*background: #cd2431;*/
+                                            padding: 2px 9px 0 25px!important;
+                                            border: none !important;
+                                            margin-top: 2px;
+                                        }
+                                        .orderSearchSection .sapMBtnText>.sapMBtnIcon {
+                                            line-height: 20px;
+                                            color: #fff;
+                                        }
+                                        .orderSearchSection .sapMBtnContent {
+                                            line-height: 17px;
+                                            color: #fff;
+                                            font-size: 12px;
+                                        }
+                                        .ordSummaryHeaderClass .sapMBarRight {
+                                            height: 30px;
+                                        }
+                                        .ordSummaryFilter.sapMBtn {
+                                            height: 35px;
+                                            margin-right: 6px !important;
+                                        }
+                                        .orderSummaryReset.sapMBtn {
+                                            height: 31px;
+                                            width: 30px !important;
+                                        }
+                                        .ordSummaryHeaderClass .sapMBarPH {
+                                            line-height: 29px !important;
+                                        }
+                                        .orderSummaryReset .sapMBtnInner {
+                                            padding: 1px 9px 0 0px!important;
+                                            border: none !important;
+                                            /*background: #cd2431;*/
+                                        }
+                                        .orderSummaryReset .sapMBtnIcon {
+                                            width: 0px;
+                                            color: #fff;
+                                            line-height: 12px !important;
+                                        }
+                                        .orderSummaryReset .sapUiIcon::before {
+                                            font-size: 16px;
+                                            font-weight: 600;
+                                        }
+                                        .advancedSearch .sapMTB {
+                                            height: 38px;
+                                            background-color: #363e43;
+                                        }
+                                        .ordSummaryFilter .sapUiIcon::before {
+                                            font-size: 15px;
+                                        }
+                                        .sapMPageFooter {
+                                            height: 30px;
+                                        }
+                                        #__xmlview1--footerBar .sapMBarPH {
+                                            line-height: 28px;
+                                        }
+                                        #__xmlview1--footerBar .sapMBarRight {
+                                            line-height: 25px;
+                                        }
+                                        #__xmlview1--footerBar .sapMBtnIcon {
+                                            line-height: 31px;
+                                            font-size: 13px;
+                                            color: #fff;
+                                        }
+                                        .ordSummaryFilter .sapMBtnInner {
+                                            padding: 2px 9px 0 2px!important;
+                                        }
+                                        .filterDlgCls .sapMPage>.sapMPageHeader+section,
+                                        .sapMPage>.sapMPageHeader+.sapUiHiddenPlaceholder+section,
+                                        .sapMPage>.sapMPageSubHeader+section {
+                                            top: 40px;
+                                        }
+                                        .filterDlgCls .sapMSLI {
+                                            height: 25px
+                                        }
+                                        #__xmlview1--fourthView-cont {
+                                            overflow: hidden scroll !important;
+                                        }
+                                        .statusCreated {
+                                            padding-top: 0px !important;
+                                            line-height: 16px !important;
+                                            padding-right: 30px;
+                                        }
+                                        .orderNumber.sapMLabel,
+                                        .orderText.sapMText {
+                                            padding-top: 0px;
+                                            font-size: 12px;
+                                            line-height: 30px;
+                                        }
+                                        .customerInfoItem .sapMText,
+                                        .customerInfoValue .sapMText {
+                                            font-size: 8px
+                                        }
+                                        .ShippingInfoValue .sapMText,
+                                        .customerInfo .sapMText {
+                                            font-size: 8px;
+                                            line-height: 15px;
+                                        }
+                                        .customerInfoTitle.sapMTitleStyleH3 {
+                                            font-size: 10px;
+                                        }
+                                        .orderSummaryTblView .sapUiTableTr>td {
+                                            padding-top: 0px!important
+                                        }
+                                        #__xmlview1--footerBar-BarPH.sapMBarPH {
+                                            line-height: 25px !important;
+                                        }
+                                        .ordSummaryHeaderClass .sapMPageHeader .sapMBarMiddle {
+                                            margin-left: 85px;
+                                            padding-top: 0px;
+                                        }
+                                        .orderSummaryTblView .sapUiTableCol {
+                                            padding-top: 5px !important;
+                                        }
+                                        .fontMedium,
+                                        .fontTiny {
+                                            font-size: 8px!important;
+                                        }
+                                        .totalWeight .customerInfoItem {
+                                            line-height: 15px;
+                                        }
+                                        .totalWeight {
+                                            padding-top: 10px
+                                        }
+                                        .customerInfoTitle {
+                                            line-height: 5px;
+                                            padding-bottom: 5px;
+                                        }
+                                        .ordersTblCls .sapUiTableCol .sapUiTableColCell span {
+                                            font-size: 8px!important;
+                                        }
+                                        .pageClass {
+                                            margin-top: 0px !important;
+                                            line-height: 25px !important;
+                                            height: 30px !important;
+                                        }
+                                        .orderSummaryReset .sapMBtnInner.sapMBtnActive {
+                                            background: transparent !important;
+                                        }
+                                        .orderViewFooter .footerDownloadBtn {
+                                            height: 30px;
+                                            padding-top: 2px;
+                                        }
+                                        .footerDownloadBtn .sapMBtnInner {
+                                            height: 23px;
+                                        }
+                                        .ordSummaryFilter .sapMBtnInner.sapMBtnActive {
+                                            background: transparent !important;
+                                        }
+                                        .portraitMode {
+                                            margin-left: 20%;
+                                            margin-top: 50%;
+                                            font-size: 20px;
+                                            font-weight: 500;
+                                        }
+                                        .orderHeader {
+                                            background: #333!important;
+                                            height: 19px!important;
+                                            padding-right: 12px
+                                        }
+                                        .createdDate {
+                                            color: #fff!important;
+                                            font-size: 12px;
+                                            line-height: 17px;
+                                            padding-left: 6px;
+                                        }
+                                        .footerDownloadBtn .sapMBtnInner span {
+                                            line-height: 18px;
+                                            padding-right: 0px;
+                                        }
+                                        .footerDownloadBtn.sapMBtn {
+                                            height: 20px;
+                                            padding-top: 4px;
+                                            padding-bottom: 5px;
+                                        }
+                                        .expandIcon .sapMIBar.sapMTB .sapMBarChild {
+                                            margin-right: 0 !important;
+                                        }
+                                        .expandIcon .sapMIBar .sapMBarChild:first-child {
+                                            margin-left: 0 !important;
+                                        }
+                                        .expandIcon > div > span {
+                                            font-size: 10px !important;
+                                            margin-top: 3px !important;
+                                            color: #fff !important;
+                                            line-height: 12px !important;
+                                        }
+                                        .expandIcon > div {
+                                            background-color: #333333 !important;
+                                            border: none !important;
+                                            height: 16px;
+                                        }
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>a,
+                                        .orderSummaryTblView.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td .sapMText,
+                                        .ordersTblCls.sapUiTable .sapUiTableCtrl .sapUiTableRowHvr>td>div>span {
+                                            color: #333!important
+                                        }
+                                    }
+                                    
+                                    #__page0-cont {
+                                        background: #f2f2f2!important
+                                    }
+                                    
+                                    .loading {
+                                        padding: 90px 0 0 140px!important
+                                    }
+                                    
+                                    .loading span {
+                                        line-height: 32px;
+                                        margin-left: 12px;
+                                        font-size: 16px
+                                    }
+                                    
+                                    .loading_wrp {
+                                        background-color: #FFF;
+                                        display: block;
+                                        height: 100%;
+                                        left: 0;
+                                        opacity: .5;
+                                        filter: alpha(opacity=50);
+                                        position: absolute;
+                                        top: 0;
+                                        width: 100%;
+                                        z-index: 1020
+                                    }
+                                    
+                                    .loading_wrp .x16 span {
+                                        line-height: 16px;
+                                        font-size: 12px;
+                                        margin-left: 6px
+                                    }
+                                    
+                                    .loading_wrp .x32 img {
+                                        width: 100px;
+                                        height: 100px
+                                    }
+                                    
+                                    .pageClass {
+                                        color: #fff !important;
+                                        margin-top: 6px;
+                                        font-size: 14px !important;
+                                    }
+                                    
+                                    .sapUiBLy {
+                                        background-color: #000;
+                                        opacity: .6;
+                                        filter: alpha(opacity=60);
+                                        position: absolute
+                                    }
+                                    
+                                    .displayBlockInPhn {
+                                        display: none;
+                                    }
+                                    
+                                    .displayHeaderInfo {
+                                        display: flex;
+                                    }
+                                    
+                                    #__separator0 {
+                                        display: none;
+                                    }
+                                    
+                                    .filterDlgCls .sapMRbB .sapMRbBInn {
+                                        height: 8px !important;
+                                        width: 8px !important;
+                                        padding: 0px !important;
+                                        margin: 0px !important
+                                    }
+                                    
+                                    .filterDlgCls .sapMRbB .sapMRbBOut {
+                                        height: 8px !important;
+                                        width: 8px !important;
+                                        margin: 17px !important;
+                                    }
+                                    /*#__xmlview1--materialOrderInfo {*/
+                                    /*    height: 32px !important;*/
+                                    /*}*/
+                                    /*#__xmlview2--materialOrderInfo {*/
+                                    /*    height: 32px !important;*/
+                                    /*}*/
+                                    
+                                    #__xmlview1--searchBtnHeader1-inner {
+                                        border: none !important;
+                                        background: #f2f2f2 !important;
+                                        margin: 1px 0px 0px 0px !important;
+                                        padding: 2px 2px 0px 0px !important;
+                                        border: 1px solid #bfbfbf !important;
+                                        border-radius: 4px;
+                                        min-width: 32px !important;
+                                    }
+                                    
+                                    #__xmlview1--searchBtnHeader1-img {
+                                        line-height: 1.8rem;
+                                        width: 1.000rem;
+                                        font-size: 1.3rem;
+                                        max-height: 1.5rem;
+                                        color: #333 !important;
+                                        /*margin-left: 0.4375rem;*/
+                                        /*margin-right: 0.4375rem;*/
+                                    }
+                                    
+                                    .ordersTblCls .sapUiTableColRowHdr,
+                                    .sapUiTableCol {
+                                        padding-bottom: 0 !important;
+                                    }
+                                    
+                                    .dateLblCls {
+                                        color: #000 !important;
+                                    }
+                                    
+                                    .dateFilterCls {
+                                        width: 50%;
+                                    }
+                                    
+                                    .dateFilterCls .sapMBtnIcon {
+                                        right: 28px !important;
+                                        font-size: 1rem;
+                                        position: relative;
+                                        line-height: 30px;
+                                        color: #0071BC;
+                                    }
+                                    
+                                    .dateFilterDLgCls {
+                                        width: auto;
+                                        height: auto;
+                                        min-width: 320px !important;
+                                    }
+                                    
+                                    .dateFilterDLgCls .sapMBar {
+                                        background: #eb3442!important;
+                                        height: 35px;
+                                        line-height: 35px;
+                                    }
+                                    
+                                    .dateFilterDLgCls .sapMTitle span {
+                                        color: #fff;
+                                    }
+                                    
+                                    .dateFilterLayout {
+                                        padding: 0px 20px 10px 20px !important;
+                                    }
+                                    
+                                    .dateFilterLblCls {
+                                        text-align: left;
+                                        font-weight: bold;
+                                        color: #000;
+                                        font-size: 14px;
+                                    }
+                                    
+                                    .dateFilterComboBox {
+                                        width: 100px;
+                                        margin-right: 15px !important;
+                                    }
+                                    
+                                    .dateFilterComboBox .sapMInputBaseContentWrapper {
+                                        border-radius: 5px;
+                                        height: 30px !important;
+                                    }
+                                    /*.dateFilterHlayoutCls {
+                                        padding-top: 10px;
+                                    }*/
+                                    
+                                    .radioBtnCls .sapMRbBLabel {
+                                        font-weight: bold;
+                                        color: #000;
+                                    }
+                                    
+                                    .radioBtnGrpCls .sapMRbBLabel {
+                                        height: 31px;
+                                        padding-left: 35px;
+                                    }
+                                    
+                                    .radioBtnGrpCls {
+                                        padding-top: 5px;
+                                        outline: none !important;
+                                    }
+                                    
+                                    .dateFilterComboBox .sapUiSizeCompact .sapMInputBaseIcon {
+                                        line-height: 1.8rem !important;
+                                    }
+                                    
+                                    .dateFilterDLgCls .sapMBarMiddle {
+                                        text-align: left;
+                                        margin-left: 10px;
+                                    }
+                                    
+                                    .dateFilterComboBox .sapMComboBoxTextField {
+                                        height: 25px;
+                                        border-radius: 3px;
+                                    }
+                                    
+                                    .dateFilterComboBox .sapMInputBaseInner {
+                                        padding: 0 10px;
+                                        border-radius: 4px;
+                                    }
+                                    
+                                    .dateFilterComboBox .sapMComboBoxTextFieldArrow {
+                                        color: #0071bc;
+                                        font-size: 10px;
+                                        font-weight: 600;
+                                        line-height: 25px;
+                                        border-radius: 6px;
+                                        width: 25px;
+                                    }
+                                    
+                                    .dateFilterDLgCls.sapMDialog {
+                                        border: none !important;
+                                        border-radius: 5px;
+                                    }
+                                    
+                                    .radioBtnCls.sapMRb:focus:before {
+                                        border: none;
+                                    }
+                                    
+                                    .radioBtnCls .sapMRbB .sapMRbBOut {
+                                        height: 9px;
+                                        width: 8px;
+                                        padding: 1px;
+                                        margin-top: 15px !important;
+                                    }
+                                    
+                                    .radioBtnCls .sapMRbB .sapMRbBInn {
+                                        height: 6px;
+                                        width: 5px;
+                                        margin: 0.4px;
+                                    }
+                                    
+                                    .dateFilterComboBox.sapMComboBoxBasePressed .sapMComboBoxBaseArrow,
+                                    .dateFilterComboBox.sapMComboBoxBasePressed .sapMComboBoxBaseArrow:hover {
+                                        background: transparent;
+                                    }
+                                    
+                                    .dateFilterComboBox.sapMComboBoxBasePressed .sapMComboBoxBaseArrow::before {
+                                        color: #0071bc;
+                                    }
+                                    
+                                    .dateFilterComboBox .sapMComboBoxBaseArrow:not(.sapMComboBoxBasePressed):hover {
+                                        background: transparent;
+                                    }
+                                    
+                                    .dataFilterApply {
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .dateFilterComboBox .sapMInputBaseIcon {
+                                        line-height: 31px !important;
+                                    }
+                                    
+                                    .multiInput {
+                                        min-width: 235px !important;
+                                        max-width: 235px !important;
+                                    }
+                                    
+                                    .multiInput.sapMInputBaseWidthPadding {
+                                        padding: 20px 0;
+                                    }
+                                    
+                                    .searchBrand {
+                                        margin: 30px 20px 0;
+                                        width: 100px;
+                                    }
+                                    
+                                    .dateFilterComboBox.sapMComboBoxTextField {
+                                        border-radius: 3px;
+                                    }
+                                    
+                                    .multiInput .sapMMultiInputBorder {
+                                        border-radius: 3px;
+                                        height: 30px;
+                                    }
+                                    
+                                    .multiInput .sapMMultiInputInputContainer > input {
+                                        height: 30px;
+                                    }
+                                    
+                                    .dateFilterCls .sapMBtnInner {
+                                        min-width: 20px;
+                                    }
+                                    
+                                    .dateFilterHlayoutCls .sapMSlt {
+                                        height: 30px;
+                                        border-radius: 5px;
+                                    }
+                                    
+                                    .dateFilterHlayoutCls .sapMSlt > .sapMSltLabel {
+                                        line-height: 30px;
+                                    }
+                                    
+                                    .dateFilterHlayoutCls .sapMSltArrow {
+                                        line-height: 30px;
+                                        font-size: 10px;
+                                        color: #0071bc;
+                                    }
+                                    
+                                    .dateFilterComboBox.sapMComboBoxTextField {
+                                        height: 30px;
+                                        border-radius: 5px;
+                                    }
+                                    
+                                    #__button7 {
+                                        margin-right: 12px;
+                                    }
+                                    /*@media screen and (orientation:portrait) {*/
+                                    /*    body {*/
+                                    /*        transform: rotate(-90deg);*/
+                                    /*        transform-origin: 50% 50%;*/
+                                    /*    }*/
+                                    /*}*/
+                                    
+                                    .multiInput .sapMToken {
+                                        margin-top: 1px !important;
+                                    }

@@ -1,0 +1,67 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<Dialog id="dateFilterDlg" class="dateFilterDLgCls" title="Date Selection" xmlns:html="http://www.w3.org/1999/xhtml">
+		<beginButton></beginButton>
+		<buttons>
+			<Button text="Apply" press="applySearch" class="applySearch"/>
+			<Button text="Close" press="onDateDlgClose" class="applySearch"/>
+		</buttons>
+		<l:VerticalLayout class="dateFilterLayout">
+			<l:VerticalLayout class="dataFilterApply">
+				<l:HorizontalLayout class="dateFilterHlayoutCls">
+					<Label text="Apply To" class="dateFilterLblCls"/>
+				</l:HorizontalLayout>
+				<l:HorizontalLayout class="dateFilterHlayoutCls">
+				<Select id="applyToId" change="applyTOSelelction" selectedKey="Erdat" items="{ path: '/ApplyTo'}" forceSelection="false">
+					<core:Item key="{key}" text="{value}" />
+				</Select>
+				</l:HorizontalLayout>
+				<!--<RadioButtonGroup class="radioBtnGrpCls">
+					<buttons>
+						<RadioButton id="createdDate" text="Created Date" class="radioBtnCls"/>
+						<RadioButton id="custShipDate" text="Customer Ship Date" class="radioBtnCls"/>
+						<RadioButton id="expectedCrd" text="Expected CRD" class="radioBtnCls"/>
+						<RadioButton id="actualFactoryDeliveryDate" text="Actual Factory Delivery Date" class="radioBtnCls"/>
+						<RadioButton id="billedDate" text="Billed date" class="radioBtnCls"/>
+						<RadioButton id="paymentDate" text="Payment date" class="radioBtnCls"/>
+						<RadioButton id="expectedStoreDate" text="Expected In Store Date" class="radioBtnCls"/>
+					</buttons>
+				</RadioButtonGroup>-->
+			</l:VerticalLayout>
+			<l:HorizontalLayout class="dateFilterHlayoutCls">
+				<Label text="From Date" class="dateFilterLblCls"/>
+			</l:HorizontalLayout>
+			<l:HorizontalLayout class="dateFilterHlayoutCls">
+				<ComboBox id="fromDateYear" items="{path:'/YearSet'}" app:row="From" change="onYearChange" selectionChange="onYearSelection" placeholder="Year"
+					class="dateFilterComboBox">
+					<core:Item key="{Gjahr}" text="{Gjahr}"/>
+				</ComboBox>
+				<ComboBox id="fromDateMonth" app:selectedField="fromMonth" app:row="From" items="{path:'/Monthset'}" selectionChange="onMonthSelection"
+					placeholder="Month" class="dateFilterComboBox">
+					<core:Item key="{Month}" text="{Month}"/>
+				</ComboBox>
+				<ComboBox id="fromDateDay" app:selectedField="fromDate" app:row="From" items="{path:'/DaysSet'}" selectionChange="onDateSelect"
+					enabled="false" placeholder="Date" class="dateFilterComboBox">
+					<core:Item key="{Day}" text="{Day}"/>
+				</ComboBox>
+			</l:HorizontalLayout>
+			<l:HorizontalLayout class="dateFilterHlayoutCls">
+				<Label text="To Date" class="dateFilterLblCls"/>
+			</l:HorizontalLayout>
+			<l:HorizontalLayout class="dateFilterHlayoutCls">
+				<ComboBox id="toDateYear" items="{path:'/YearSet'}" app:row="To" selectionChange="onYearSelection" enabled="true" placeholder="Year"
+					class="dateFilterComboBox">
+					<core:Item key="{Gjahr}" text="{Gjahr}"/>
+				</ComboBox>
+				<ComboBox id="toDateMonth" app:selectedField="toMonth" app:row="To" items="{path:'/Monthset'}" selectionChange="onMonthSelection"
+					enabled="false" placeholder="Month" class="dateFilterComboBox">
+					<core:Item key="{Month}" text="{Month}"/>
+				</ComboBox>
+				<ComboBox id="toDateDay" app:selectedField="toDate" app:row="To" items="{path:'/DaysSet'}" enabled="false" placeholder="Date"
+					selectionChange="onDateSelect" class="dateFilterComboBox">
+					<core:Item key="{Day}" text="{Day}"/>
+				</ComboBox>
+			</l:HorizontalLayout>
+		</l:VerticalLayout>
+	</Dialog>
+</core:FragmentDefinition>

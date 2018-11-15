@@ -1,0 +1,67 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<Dialog id="advanceSearchDlg" class="advancedSearch" title="Advance Search" xmlns:html="http://www.w3.org/1999/xhtml">
+		<buttons>
+			<!--<Button icon="sap-icon://refresh" text="reset all" class="searchRefresh"/>-->
+			<Button text="Apply" press="applySearch" class="applySearch"/>
+			<Button text="Close" press="onClose" class="applySearch"/>
+		</buttons>
+		<l:VerticalLayout class="advanceSearchLayoutSplit">
+			<l:HorizontalLayout>
+				<HBox class="advanceSearchInfo">
+					<VBox class="advanceSearchLabel">
+						<Text text="Sales Order No." class="searchBrand"/>
+					</VBox>
+					<VBox class="advanceSearchInput">
+						<!--class="customerPoNo"-->
+						<!--showSuggestion="true"-->
+						<MultiInput id="salesOrderNum" class="multiInput" type="Number" placeholder="Enter Sales Order No..." suggest="handleSuggestSalesOrderNo"
+							showValueHelp="false" suggestionItems="{/AdvanceSearchSet}">
+							<suggestionItems>
+								<core:Item text="{SearchNumber}"/>
+							</suggestionItems>
+						</MultiInput>
+					</VBox>
+					<!--<VBox>-->
+					<!--	<core:Icon src="sap-icon://refresh" class="resetIcon" ></core:Icon>-->
+					<!--</VBox>-->
+				</HBox>
+			</l:HorizontalLayout>
+			<l:HorizontalLayout class="secondLayout">
+				<HBox class="advanceSearchInfo">
+					<VBox class="advanceSearchLabel">
+						<Text text="Customer PO No." class="searchBrand"/>
+					</VBox>
+					<VBox class="advanceSearchInput">
+						<MultiInput id="customerPoNo" class="multiInput" type="Text" placeholder="Enter Customer PO No..." suggest="handleSuggestCustomerPoNo"
+							showValueHelp="false" suggestionItems="{/AdvanceSearchSet}">
+							<suggestionItems>
+								<core:Item text="{SearchNumber}"/>
+							</suggestionItems>
+						</MultiInput>
+					</VBox>
+					<!--<VBox>-->
+					<!--	<core:Icon src="sap-icon://refresh" class="resetIcon"></core:Icon>-->
+					<!--</VBox>-->
+				</HBox>
+			</l:HorizontalLayout>
+			<l:HorizontalLayout class="secondLayout">
+				<HBox class="advanceSearchInfo">
+					<VBox class="advanceSearchLabel">
+						<Text text="Old Material No." class="searchBrand"/>
+					</VBox>
+					<VBox class="advanceSearchInput">
+						<MultiInput id="OldMaterialId" class="multiInput" type="Text" placeholder="Enter Old Material Id..." suggest="handleSuggestOldMaterialId"
+							showValueHelp="false" suggestionItems="{/AdvanceSearchSet}">
+							<suggestionItems>
+								<core:Item text="{SearchNumber}"/>
+							</suggestionItems>
+						</MultiInput>
+					</VBox>
+				</HBox>
+			</l:HorizontalLayout>
+		</l:VerticalLayout>
+		<!--<l:VerticalLayout >
+				
+			</l:VerticalLayout>-->
+	</Dialog>
+</core:FragmentDefinition>
